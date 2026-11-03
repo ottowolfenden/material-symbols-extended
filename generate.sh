@@ -32,6 +32,3 @@ zip -qr ttf-material-symbols-extended.zip fonts
 
 echo 'zipping svgs directory'
 zip -qr svg-material-symbols-extended.zip svgs
-
-echo 'adding icons to readme'
-./add-readme-icons.sh

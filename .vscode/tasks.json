@@ -1,0 +1,38 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Unzip relevant ZIP archives in ~/downloads",
+            "type": "process",
+            "command": "./unzip.sh",
+            "problemMatcher": []
+        },
+        {
+            "label": "Generate fonts",
+            "type": "process",
+            "command": "bash",
+            "args": ["-c", "./generate.sh ${input:generateopts}"],
+            "problemMatcher": []
+        },
+        {
+            "label": "Add icons to README.md",
+            "type": "process",
+            "command": "./add-readme-icons.sh",
+            "problemMatcher": []
+        }
+    ],
+    "inputs": [
+        {
+            "id": "generateopts",
+            "type": "command",
+            "command": "extension.commandvariable.pickStringRemember",
+            "args": {
+                "description": "",
+                "key": "generateopts",
+                "multiPick": true,
+                "separator": " ",
+                "options": [{ "label": "Fetch Material Symbols font", "value": "--fetch" }]
+            }
+        }
+    ]
+}
