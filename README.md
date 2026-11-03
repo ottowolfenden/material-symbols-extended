@@ -1,8 +1,10 @@
 # Material Symbols Extended
 
-An extended version of static Material Symbols Outlined fonts containing extra icons as well as the icons in the original font. The fonts have an optical size variations of 24px and 48px, each with a filled and non-filled variant. 
+An extended version of static Material Symbols Outlined fonts containing extra icons as well as the icons in the original font. The fonts have an optical size variations of 24px and 48px, each with a filled and non-filled variant. The purpose of this project is to provide icons missing in the original Material Symbols font.
 
-### Downloading and Usage
+This project uses the [FontTools](https://github.com/fonttools/fonttools) and [FontForge](https://github.com/fontforge/fontforge) Python libraries to combine the original Material Symbols fonts with SVGs produced in Figma.
+
+### Downloads and Usage
 To download, clone the repository or use the links below. Ligatures for the fonts are the same for the original Material Symbols (e.g. person, more_horiz) and for the extra icons, prepend with an underscore (e.g. _folder_home). When the original font gets updated or new extended icons are added, codepoints for the extended glyphs will change so ligatures must be used.
 
 [Download TTF icon fonts (zip)](https://github.com/ottowolfenden/material-symbols-extended/raw/main/ttf-material-symbols-extended.zip)
