@@ -3,59 +3,45 @@
 An extended version of static Material Symbols Outlined fonts containing extra icons as well as the icons in the original font. The fonts have an optical size variations of 24px and 48px, each with a filled and non-filled variant. 
 
 ### Downloading and Usage
-To download, clone the repository or use the links below. Ligatures for the fonts are the same for the original Material Symbols (e.g. `person`, `more_horiz`) and for the extra icons, prepend with an underscore (e.g. `_folder_home`). When the original font gets updated or new extended icons are added, codepoints for the extended glyphs will change so ligatures must be used.
+To download, clone the repository or use the links below. Ligatures for the fonts are the same for the original Material Symbols (e.g. person, more_horiz) and for the extra icons, prepend with an underscore (e.g. _folder_home). When the original font gets updated or new extended icons are added, codepoints for the extended glyphs will change so ligatures must be used.
 
 [Download TTF icon fonts (zip)](https://github.com/ottowolfenden/material-symbols-extended/raw/main/ttf-material-symbols-extended.zip)
 
 [Download SVG icons (zip)](https://github.com/ottowolfenden/material-symbols-extended/raw/main/svg-material-symbols-extended.zip)
 
 ### Icons
-Below are the optical size 24px icons (enlarged).
+Below are the icons which have been added so far (enlarged optical size 24px).
 <table>
 <!-- begin icons -->
 <tr>
-    <td align="center">
-        <picture>
-            <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_home/black.svg" width="60px"></source>
-            <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_home/white.svg" width="60px"></source>
-            <img>
-        </picture>
-        <picture>
-            <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_home/black-fill.svg" width="60px"></source>
-            <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_home/white-fill.svg" width="60px"></source>
-            <img>
-        </picture>
-        <br>
-        <span>folder_home</span>
-    </td>
-    <td align="center">
-        <picture>
-            <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_lock/black.svg" width="60px"></source>
-            <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_lock/white.svg" width="60px"></source>
-            <img>
-        </picture>
-        <picture>
-            <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_lock/black-fill.svg" width="60px"></source>
-            <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_lock/white-fill.svg" width="60px"></source>
-            <img>
-        </picture>
-        <br>
-        <span>folder_lock</span>
-    </td>
-    <td align="center">
-        <picture>
-            <source media="(prefers-color-scheme: light)" srcset="readme-svgs//black.svg" width="60px"></source>
-            <source media="(prefers-color-scheme: dark)" srcset="readme-svgs//white.svg" width="60px"></source>
-            <img>
-        </picture>
-        <picture>
-            <source media="(prefers-color-scheme: light)" srcset="readme-svgs//black-fill.svg" width="60px"></source>
-            <source media="(prefers-color-scheme: dark)" srcset="readme-svgs//white-fill.svg" width="60px"></source>
-            <img>
-        </picture>
-        <br>
-        <span></span>
-    </td>
+<td align="center">
+    <picture>
+        <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_home/black.svg" width="60px"></source>
+        <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_home/white.svg" width="60px"></source>
+        <img>
+    </picture>
+    <picture>
+        <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_home/black-fill.svg" width="60px"></source>
+        <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_home/white-fill.svg" width="60px"></source>
+        <img>
+    </picture>
+    <br>
+    <span>folder_home</span>
+</td>
+<td align="center">
+    <picture>
+        <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_lock/black.svg" width="60px"></source>
+        <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_lock/white.svg" width="60px"></source>
+        <img>
+    </picture>
+    <picture>
+        <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_lock/black-fill.svg" width="60px"></source>
+        <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_lock/white-fill.svg" width="60px"></source>
+        <img>
+    </picture>
+    <br>
+    <span>folder_lock</span>
+</td>
 </tr>
 <!-- end icons -->
 </table>
