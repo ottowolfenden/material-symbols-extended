@@ -3,7 +3,7 @@ from fontTools.ttLib import TTFont
 from utils import *
 
 properties = ["FILL,opsz@0,24", "FILL,opsz@1,24", "FILL,opsz@0,48", "FILL,opsz@1,48"]
-names = ["folder_home", "folder_lock"]
+names = exec(["ls", "-1", "svgs"]).split("\n")
 tmpPath = exec(["mktemp", "--suffix=.ttf"])
 
 for property in properties:
