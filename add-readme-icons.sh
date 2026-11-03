@@ -17,6 +17,13 @@ for svg in readme-svgs/*/*.svg; do
     sed -i 's/fill="black"/fill="white"/g' "$whitesvg"
 done
 
+for dir in readme-svgs/*; do
+    mv "$dir"/FILL,opsz@0,24.svg "$dir"/black.svg
+    mv "$dir"/FILL,opsz@1,24.svg "$dir"/black-fill.svg
+    mv "$dir"/white-FILL,opsz@0,24.svg "$dir"/white.svg
+    mv "$dir"/white-FILL,opsz@1,24.svg "$dir"/white-fill.svg
+done
+
 template=$(cat readme-icon-template.md)
 tmp=$(mktemp)
 inside=false

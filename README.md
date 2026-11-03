@@ -17,23 +17,23 @@ git clone --depth 1 https://github.com/ottowolfenden/material-symbols-extended.g
 Below are the optical size 24px icons (enlarged).
 <!-- begin icons -->
 <picture>
-    <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_home/FILL,opsz@0,24.svg" width="60px"></source>
-    <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_home/white-FILL,opsz@0,24.svg" width="60px"></source>
+    <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_home/black.svg" width="60px"></source>
+    <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_home/white.svg" width="60px"></source>
     <img>
 </picture>
 <picture>
-    <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_home/FILL,opsz@1,24.svg" width="60px"></source>
-    <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_home/white-FILL,opsz@1,24.svg" width="60px"></source>
+    <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_home/black-fill.svg" width="60px"></source>
+    <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_home/white-fill.svg" width="60px"></source>
     <img>
 </picture>
 <picture>
-    <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_lock/FILL,opsz@0,24.svg" width="60px"></source>
-    <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_lock/white-FILL,opsz@0,24.svg" width="60px"></source>
+    <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_lock/black.svg" width="60px"></source>
+    <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_lock/white.svg" width="60px"></source>
     <img>
 </picture>
 <picture>
-    <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_lock/FILL,opsz@1,24.svg" width="60px"></source>
-    <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_lock/white-FILL,opsz@1,24.svg" width="60px"></source>
+    <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_lock/black-fill.svg" width="60px"></source>
+    <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_lock/white-fill.svg" width="60px"></source>
     <img>
 </picture>
 <!-- end icons -->
