@@ -18,5 +18,5 @@ done
 printf 'decompressed woff2 to ttf\n\n'
 
 printf 'adding svgs to font\n'
-.venv/bin/python add_icon.py
-printf 'added svgs to font'
+python add-svgs.py 2>/dev/null
+printf 'added svgs to font\n'
