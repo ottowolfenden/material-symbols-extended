@@ -28,7 +28,7 @@ echo 'adding svgs to font'
 python add-svgs.py 2>/dev/null
 
 echo 'zipping fonts directory'
-zip -qr material-symbols-extended-fonts.zip fonts
+zip -qr ttf-material-symbols-extended.zip fonts
 
 echo 'zipping svgs directory'
-zip -qr material-symbols-extended-svgs.zip svgs
+zip -qr svg-material-symbols-extended.zip svgs
