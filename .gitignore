@@ -1,3 +1,4 @@
 src-fonts
 .venv
 todo.md
+__pycache__
