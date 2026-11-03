@@ -24,26 +24,27 @@ for dir in readme-svgs/*; do
     mv "$dir"/white-FILL,opsz@1,24.svg "$dir"/white-fill.svg
 done
 
-template=$(cat readme-icon-template.md)
+template=$(<"readme-icon-template.md")
 tmp=$(mktemp)
 inside=false
 dirs=(readme-svgs/*)
+
+printtd() {
+    [[ ! -n "$1" ]] && return 0 || {
+        icon=$(realpath --relative-to readme-svgs "$1")
+        printf "%s\n" "${template//"%ICON"/"$icon"}"
+    }
+}
 
 while IFS= read -r line; do
     [[ "$line" == "<!-- begin icons -->" ]] && {
         inside=true
         echo "$line"
         for ((i=0; i<${#dirs[@]}; i+=3)); do
-            output="$template"
             dir1=${dirs[i]:-}; dir2=${dirs[i+1]:-}; dir3=${dirs[i+2]:-}
-            icon1=""; icon2=""; icon3=""
-            [[ -n "$dir1" ]] && icon1=$(realpath --relative-to readme-svgs "$dir1")
-            [[ -n "$dir2" ]] && icon2=$(realpath --relative-to readme-svgs "$dir2")
-            [[ -n "$dir3" ]] && icon3=$(realpath --relative-to readme-svgs "$dir3")
-            output="${output//"%ICON1"/"$icon1"}"
-            output="${output//"%ICON2"/"$icon2"}"
-            output="${output//"%ICON3"/"$icon3"}"
-            printf '%s\n' "$output"
+            printf '<tr>\n'
+            printtd "$dir1"; printtd "$dir2"; printtd "$dir3"
+            printf '</tr>\n'
         done
         continue
     }
