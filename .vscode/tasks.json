@@ -4,7 +4,8 @@
         {
             "label": "Unzip relevant ZIP archives in ~/downloads",
             "type": "process",
-            "command": "./unzip.sh",
+            "command": "bash",
+            "args": ["-c", "./unzip.sh ${input:unzipopts}"],
             "problemMatcher": []
         },
         {
@@ -22,6 +23,18 @@
         }
     ],
     "inputs": [
+        {
+            "id": "unzipopts",
+            "type": "command",
+            "command": "extension.commandvariable.pickStringRemember",
+            "args": {
+                "description": "",
+                "key": "unzipopts",
+                "multiPick": true,
+                "separator": " ",
+                "options": [{ "label": "Delete ZIP archives", "value": "--clean" }]
+            }
+        },
         {
             "id": "generateopts",
             "type": "command",
