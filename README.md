@@ -5,10 +5,6 @@ An extended version of static Material Symbols Outlined fonts containing extra i
 ### Downloading and Usage
 To download, clone the repository or use the links below. Ligatures for the fonts are the same for the original Material Symbols (e.g. `person`, `more_horiz`) and for the extra icons, prepend with an underscore (e.g. `_folder_home`). When the original font gets updated or new extended icons are added, codepoints for the extended glyphs will change so ligatures must be used.
 
-```bash
-git clone --depth 1 https://github.com/ottowolfenden/material-symbols-extended.git
-```
-
 [Download TTF icon fonts (zip)](https://github.com/ottowolfenden/material-symbols-extended/raw/main/ttf-material-symbols-extended.zip)
 
 [Download SVG icons (zip)](https://github.com/ottowolfenden/material-symbols-extended/raw/main/svg-material-symbols-extended.zip)
