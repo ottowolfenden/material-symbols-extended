@@ -15,28 +15,55 @@ git clone --depth 1 https://github.com/ottowolfenden/material-symbols-extended.g
 
 ### Icons
 Below are the optical size 24px icons (enlarged).
+<table>
 <!-- begin icons -->
-<picture>
-    <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_home/black.svg" width="60px"></source>
-    <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_home/white.svg" width="60px"></source>
-    <img>
-</picture>
-<picture>
-    <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_home/black-fill.svg" width="60px"></source>
-    <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_home/white-fill.svg" width="60px"></source>
-    <img>
-</picture>
-<picture>
-    <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_lock/black.svg" width="60px"></source>
-    <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_lock/white.svg" width="60px"></source>
-    <img>
-</picture>
-<picture>
-    <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_lock/black-fill.svg" width="60px"></source>
-    <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_lock/white-fill.svg" width="60px"></source>
-    <img>
-</picture>
+<tr>
+    <td align="center">
+        <picture>
+            <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_home/black.svg" width="60px"></source>
+            <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_home/white.svg" width="60px"></source>
+            <img>
+        </picture>
+        <picture>
+            <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_home/black-fill.svg" width="60px"></source>
+            <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_home/white-fill.svg" width="60px"></source>
+            <img>
+        </picture>
+        <br>
+        <span>folder_home</span>
+    </td>
+    <td align="center">
+        <picture>
+            <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_lock/black.svg" width="60px"></source>
+            <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_lock/white.svg" width="60px"></source>
+            <img>
+        </picture>
+        <picture>
+            <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_lock/black-fill.svg" width="60px"></source>
+            <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_lock/white-fill.svg" width="60px"></source>
+            <img>
+        </picture>
+        <br>
+        <span>folder_lock</span>
+    </td>
+    <td align="center">
+        <picture>
+            <source media="(prefers-color-scheme: light)" srcset="readme-svgs//black.svg" width="60px"></source>
+            <source media="(prefers-color-scheme: dark)" srcset="readme-svgs//white.svg" width="60px"></source>
+            <img>
+        </picture>
+        <picture>
+            <source media="(prefers-color-scheme: light)" srcset="readme-svgs//black-fill.svg" width="60px"></source>
+            <source media="(prefers-color-scheme: dark)" srcset="readme-svgs//white-fill.svg" width="60px"></source>
+            <img>
+        </picture>
+        <br>
+        <span></span>
+    </td>
+</tr>
 <!-- end icons -->
+</table>
+
 
 ### Notice
 This repository contains modified verions of [Google Material Symbols](https://github.com/google/material-design-icons/) (which is licensed under the Apache License 2.0) and is not affiliated with Google. The original Material Symbols in the fonts are Copyright 2026 Google LLC.
