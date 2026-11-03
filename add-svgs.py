@@ -2,38 +2,41 @@ import fontforge
 from fontTools.ttLib import TTFont
 from utils import *
 
-srcFontPath = "src-fonts/FILL,opsz@0,24.ttf"
-svgPath = "svgs/folder_home/FILL,opsz@0,24.svg"
-outFontPath = "fonts/material-symbols-extended.ttf"
-name = "_folder_home"
+properties = ["FILL,opsz@0,24", "FILL,opsz@1,24", "FILL,opsz@0,48", "FILL,opsz@1,48"]
+names = ["folder_home", "folder_lock"]
 svgOffset = 192
 
-font, ff = TTFont(srcFontPath), fontforge.open(srcFontPath)
-codepoint = getCodepoint(font)
+for property in properties:
+    print(f"   making {property}")
+    srcFontPath = f"src-fonts/{property}.ttf"
+    outFontPath = f"fonts/material-symbols-extended-{property}.ttf"
+    font, ff = TTFont(srcFontPath), fontforge.open(srcFontPath)
+    for codepoint, name in list(enumerate(names, start=getCodepoint(font))):
+        svgPath = f"svgs/{name}/{property}.svg"
+        glyphName = "_" + name
 
-tmpPath = exec(["mktemp", "--suffix=.ttf"])
+        tmpPath = exec(["mktemp", "--suffix=.ttf"])
 
-svgOffset = 192
-glyph = ff.createChar(codepoint, name)
-glyph.importOutlines(svgPath)
-glyph.transform((1, 0, 0, 1, 0, svgOffset))
-glyph.width = ff["folder"].width
-ff.generate(tmpPath)
-ff.close()
+        glyph = ff.createChar(codepoint, glyphName)
+        glyph.importOutlines(svgPath)
+        glyph.transform((1, 0, 0, 1, 0, svgOffset))
+        glyph.width = ff["folder"].width
+        ff.generate(tmpPath)
 
-tmpFont = TTFont(tmpPath)
-font["glyf"].glyphs[name] = tmpFont["glyf"][name]
-font["hmtx"].metrics[name] = tmpFont["hmtx"].metrics[name]
-font.setGlyphOrder(font.getGlyphOrder() + [name])
+        tmpFont = TTFont(tmpPath)
+        font["glyf"].glyphs[glyphName] = tmpFont["glyf"][glyphName]
+        font["hmtx"].metrics[glyphName] = tmpFont["hmtx"].metrics[glyphName]
+        font.setGlyphOrder(font.getGlyphOrder() + [glyphName])
 
-for table in font["cmap"].tables:
-    if table.isUnicode():
-        table.cmap[codepoint] = name
+        tmpFont.close()
+        exec(["rm", tmpPath])
 
-addLigature(font, name)
+        for table in font["cmap"].tables:
+            if table.isUnicode():
+                table.cmap[codepoint] = glyphName
 
-font.save(outFontPath)
-tmpFont.close()
-exec(["rm", tmpPath])
+        addLigature(font, glyphName)
 
-print(f"    added {name} at U+{codepoint:04X}")
+        print(f"      added {name} at U+{codepoint:04X}")
+    ff.close()
+    font.save(outFontPath)
