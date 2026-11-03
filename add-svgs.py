@@ -2,8 +2,8 @@ import fontforge
 from fontTools.ttLib import TTFont
 from utils import *
 
-srcFontPath = "src-fonts/material-symbols-0-24.ttf"
-svgPath = "svgs/folder_home-0-24.svg"
+srcFontPath = "src-fonts/FILL,opsz@0,24.ttf"
+svgPath = "svgs/folder_home/FILL,opsz@0,24.svg"
 outFontPath = "fonts/material-symbols-extended.ttf"
 name = "_folder_home"
 svgOffset = 192
