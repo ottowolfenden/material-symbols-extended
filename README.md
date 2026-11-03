@@ -18,6 +18,20 @@ Below are the icons which have been added so far (enlarged optical size 24px).
 <tr>
 <td align="center">
     <picture>
+        <source media="(prefers-color-scheme: light)" srcset="readme-svgs/file_code/black.svg" width="60px"></source>
+        <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/file_code/white.svg" width="60px"></source>
+        <img>
+    </picture>
+    <picture>
+        <source media="(prefers-color-scheme: light)" srcset="readme-svgs/file_code/black-fill.svg" width="60px"></source>
+        <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/file_code/white-fill.svg" width="60px"></source>
+        <img>
+    </picture>
+    <br>
+    <span>file_code</span>
+</td>
+<td align="center">
+    <picture>
         <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_home/black.svg" width="60px"></source>
         <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_home/white.svg" width="60px"></source>
         <img>
