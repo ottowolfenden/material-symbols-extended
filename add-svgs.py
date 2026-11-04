@@ -11,7 +11,7 @@ for property in properties:
     srcFontPath = f"src-fonts/{property}.ttf"
     outFontPath = f"fonts/material-symbols-extended-{property}.ttf"
     font, ff = TTFont(srcFontPath), fontforge.open(srcFontPath)
-    for codepoint, name in list(enumerate(names, start=getFirstCodepoint(font))):
+    for codepoint, name in zip(getFreeCodepoints(font, len(names)), names):
         svgPath = f"svgs/{name}/{property}.svg"
         glyphName = "_" + name
         addSvg(ff, codepoint, glyphName, svgPath)

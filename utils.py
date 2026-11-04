@@ -7,11 +7,12 @@ def exec(command):
     return subprocess.check_output(command, text=True).strip()
 
 
-def getFirstCodepoint(font):
+def getFreeCodepoints(font, count):
     used = set()
     for table in filter(lambda t: t.isUnicode(), font["cmap"].tables):
-        used.update(map(int, table.cmap))
-    return next(filter(lambda cp: cp not in used, range(0xE000, 0xF900)))
+        used.update(table.cmap.keys())
+    free = (cp for cp in range(0xE000, 0xF900) if cp not in used)
+    return [next(free) for _ in range(count)]
 
 
 def addSvg(ff, codepoint, glyphName, svgPath):
