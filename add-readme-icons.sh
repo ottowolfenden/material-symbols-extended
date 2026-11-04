@@ -59,3 +59,5 @@ while IFS= read -r line; do
 done < README.md > $tmp
 
 mv $tmp README.md
+
+echo 'added icons to README.md'
