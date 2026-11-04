@@ -2,6 +2,12 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "Run all tasks",
+            "type": "shell",
+            "command": "./unzip.sh --clean; ./generate.sh && ./add-readme-icons.sh",
+            "problemMatcher": []
+        },
+        {
             "label": "Unzip relevant ZIP archives in ~/downloads",
             "type": "process",
             "command": "bash",
