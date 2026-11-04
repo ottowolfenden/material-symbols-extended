@@ -31,6 +31,20 @@ Below are the icons which have been added so far (optical size 24px shown at 60p
         </td>
         <td align="center">
             <picture>
+                <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_downloads/black.svg" width="60px"></source>
+                <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_downloads/white.svg" width="60px"></source>
+                <img>
+            </picture>
+            <picture>
+                <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_downloads/black-fill.svg" width="60px"></source>
+                <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_downloads/white-fill.svg" width="60px"></source>
+                <img>
+            </picture>
+            <br>
+            <span>folder_downloads</span>
+        </td>
+        <td align="center">
+            <picture>
                 <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_home/black.svg" width="60px"></source>
                 <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_home/white.svg" width="60px"></source>
                 <img>
@@ -43,6 +57,8 @@ Below are the icons which have been added so far (optical size 24px shown at 60p
             <br>
             <span>folder_home</span>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <picture>
                 <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_lock/black.svg" width="60px"></source>
@@ -57,8 +73,6 @@ Below are the icons which have been added so far (optical size 24px shown at 60p
             <br>
             <span>folder_lock</span>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <picture>
                 <source media="(prefers-color-scheme: light)" srcset="readme-svgs/json/black.svg" width="60px"></source>
