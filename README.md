@@ -102,6 +102,22 @@ Below are the icons which have been added so far (optical size 24px shown at 60p
             <span>terminal_history</span>
         </td>
     </tr>
+    <tr>
+        <td align="center">
+            <picture>
+                <source media="(prefers-color-scheme: light)" srcset="readme-svgs/tex/black.svg" width="60px"></source>
+                <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/tex/white.svg" width="60px"></source>
+                <img>
+            </picture>
+            <picture>
+                <source media="(prefers-color-scheme: light)" srcset="readme-svgs/tex/black-fill.svg" width="60px"></source>
+                <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/tex/white-fill.svg" width="60px"></source>
+                <img>
+            </picture>
+            <br>
+            <span>tex</span>
+        </td>
+    </tr>
 </table>
 
 
