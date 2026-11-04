@@ -24,7 +24,7 @@ for dir in readme-svgs/*; do
     mv "$dir"/white-FILL,opsz@1,24.svg "$dir"/white-fill.svg
 done
 
-template=$(<"readme-icon-template.md")
+template=$(<"readme-icon-template.html")
 tmp=$(mktemp)
 inside=false
 dirs=(readme-svgs/*)
@@ -37,19 +37,19 @@ printtd() {
 }
 
 while IFS= read -r line; do
-    [[ "$line" == "<!-- begin icons -->" ]] && {
+    [[ "$line" == '<table id="icons">' ]] && {
         inside=true
         echo "$line"
         for ((i=0; i<${#dirs[@]}; i+=3)); do
             dir1=${dirs[i]:-}; dir2=${dirs[i+1]:-}; dir3=${dirs[i+2]:-}
-            printf '<tr>\n'
+            printf '    <tr>\n'
             printtd "$dir1"; printtd "$dir2"; printtd "$dir3"
-            printf '</tr>\n'
+            printf '    </tr>\n'
         done
         continue
     }
 
-    [[ "$line" == "<!-- end icons -->" ]] && {
+    [[ "$line" == "</table>" ]] && {
         inside=false
         echo "$line"
         continue
