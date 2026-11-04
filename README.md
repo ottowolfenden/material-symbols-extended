@@ -59,6 +59,22 @@ Below are the icons which have been added so far (enlarged optical size 24px).
     <span>folder_lock</span>
 </td>
 </tr>
+<tr>
+<td align="center">
+    <picture>
+        <source media="(prefers-color-scheme: light)" srcset="readme-svgs/terminal_history/black.svg" width="60px"></source>
+        <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/terminal_history/white.svg" width="60px"></source>
+        <img>
+    </picture>
+    <picture>
+        <source media="(prefers-color-scheme: light)" srcset="readme-svgs/terminal_history/black-fill.svg" width="60px"></source>
+        <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/terminal_history/white-fill.svg" width="60px"></source>
+        <img>
+    </picture>
+    <br>
+    <span>terminal_history</span>
+</td>
+</tr>
 <!-- end icons -->
 </table>
 
