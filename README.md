@@ -76,6 +76,20 @@ Below are the icons which have been added so far. The icons below are the non-fi
         </td>
         <td align="center">
             <picture>
+                <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_videos/black.svg" width="60px"></source>
+                <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_videos/white.svg" width="60px"></source>
+                <img>
+            </picture>
+            <picture>
+                <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_videos/black-fill.svg" width="60px"></source>
+                <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_videos/white-fill.svg" width="60px"></source>
+                <img>
+            </picture>
+            <br>
+            <span>folder_videos</span>
+        </td>
+        <td align="center">
+            <picture>
                 <source media="(prefers-color-scheme: light)" srcset="readme-svgs/json/black.svg" width="60px"></source>
                 <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/json/white.svg" width="60px"></source>
                 <img>
@@ -88,6 +102,8 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <br>
             <span>json</span>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <picture>
                 <source media="(prefers-color-scheme: light)" srcset="readme-svgs/terminal_history/black.svg" width="60px"></source>
@@ -102,8 +118,6 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <br>
             <span>terminal_history</span>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <picture>
                 <source media="(prefers-color-scheme: light)" srcset="readme-svgs/tex/black.svg" width="60px"></source>
