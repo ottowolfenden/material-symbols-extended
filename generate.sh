@@ -4,6 +4,8 @@ set -e
 
 cd "$(dirname "${BASH_SOURCE[0]}")"
 
+[[ "$1" == "--cancel" ]] && { echo 'cancelled'; exit 0; }
+
 mkdir -p src-fonts fonts
 
 [[ 

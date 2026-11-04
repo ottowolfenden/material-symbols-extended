@@ -38,7 +38,8 @@
                 "key": "unzipopts",
                 "multiPick": true,
                 "separator": " ",
-                "options": [{ "label": "Delete ZIP archives", "value": "--clean" }]
+                "options": [{ "label": "Delete ZIP archives", "value": "--clean" }],
+                "default": "--cancel"
             }
         },
         {
@@ -50,7 +51,8 @@
                 "key": "generateopts",
                 "multiPick": true,
                 "separator": " ",
-                "options": [{ "label": "Fetch Material Symbols font", "value": "--fetch" }]
+                "options": [{ "label": "Fetch Material Symbols font", "value": "--fetch" }],
+                "default": "--cancel"
             }
         }
     ]
