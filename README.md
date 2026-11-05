@@ -192,6 +192,20 @@ Below are the icons which have been added so far. The icons below are the non-fi
     <tr>
         <td align="center">
             <picture>
+                <source media="(prefers-color-scheme: light)" srcset="readme-svgs/spreadsheet/black.svg" width="60px"></source>
+                <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/spreadsheet/white.svg" width="60px"></source>
+                <img>
+            </picture>
+            <picture>
+                <source media="(prefers-color-scheme: light)" srcset="readme-svgs/spreadsheet/black-fill.svg" width="60px"></source>
+                <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/spreadsheet/white-fill.svg" width="60px"></source>
+                <img>
+            </picture>
+            <br>
+            <span>spreadsheet</span>
+        </td>
+        <td align="center">
+            <picture>
                 <source media="(prefers-color-scheme: light)" srcset="readme-svgs/terminal_history/black.svg" width="60px"></source>
                 <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/terminal_history/white.svg" width="60px"></source>
                 <img>
