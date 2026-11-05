@@ -28,22 +28,21 @@ template=$(<"readme-icon-template.html")
 tmp=$(mktemp)
 inside=false
 dirs=(readme-svgs/*)
-
-printtd() {
-    [[ ! -n "$1" ]] && return 0 || {
-        icon=$(realpath --relative-to readme-svgs "$1")
-        printf "%s\n" "${template//"%ICON"/"$icon"}"
-    }
-}
+cols=4
 
 while IFS= read -r line; do
     [[ "$line" == '<table id="icons">' ]] && {
         inside=true
         echo "$line"
-        for ((i=0; i<${#dirs[@]}; i+=3)); do
-            dir1=${dirs[i]:-}; dir2=${dirs[i+1]:-}; dir3=${dirs[i+2]:-}
+        for ((i=0; i<${#dirs[@]}; i+=cols)); do
             printf '    <tr>\n'
-            printtd "$dir1"; printtd "$dir2"; printtd "$dir3"
+            for ((j=0; j<cols; j++)); do
+                dir=${dirs[i+j]:-}
+                 [[ -n "$dir" ]] && {
+                    icon=$(realpath --relative-to readme-svgs "$dir")
+                    printf "%s\n" "${template//"%ICON"/"$icon"}"
+                }
+            done
             printf '    </tr>\n'
         done
         continue
