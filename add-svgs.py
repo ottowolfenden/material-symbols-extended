@@ -7,7 +7,7 @@ names = exec(["ls", "-1", "svgs"]).split("\n")
 tmpPath = exec(["mktemp", "--suffix=.ttf"])
 
 for property in properties:
-    print(f"   making {property}")
+    print(f"    adding svgs to {property}")
     srcFontPath = f"src-fonts/{property}.ttf"
     outFontPath = f"fonts/material-symbols-extended-{property}.ttf"
     font, ff = TTFont(srcFontPath), fontforge.open(srcFontPath)
@@ -19,7 +19,7 @@ for property in properties:
         mergeGlyphInto(font, tmpPath, glyphName)
         addUnicodeMappings(font, codepoint, glyphName)
         addLigature(font, glyphName)
-        print(f"      added {name} at U+{codepoint:04X}")
+        print(f"        U+{codepoint:04X} <- {name}")
     ff.close()
     font.save(outFontPath)
 
