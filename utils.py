@@ -2,7 +2,8 @@ import subprocess
 from fontTools.otlLib.builder import buildLigatureSubstSubtable
 from fontTools.ttLib import TTFont
 
-glyph_names = {
+svg_char_to_glyph_name = {
+    ".": "period",
     "_": "underscore",
     "0": "digit_zero",
     "1": "digit_one",
@@ -51,7 +52,7 @@ def addUnicodeMappings(font, codepoint, glyphName):
 
 
 def addLigature(font, name):
-    components = list(map(lambda c: glyph_names.get(c, c), name))
+    components = list(map(lambda c: svg_char_to_glyph_name.get(c, c), name))
     gsub = font["GSUB"].table
     rlig = next(
         r.Feature for r in gsub.FeatureList.FeatureRecord if r.FeatureTag == "rlig"
