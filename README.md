@@ -313,6 +313,24 @@ Below are the icons which have been added so far. The icons below are the non-fi
     </tr>
     <tr>
         <td align="center">
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/language_search/black.svg"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/language_search/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/language_search/white.svg" width="60px"></source
+                    ><img
+                ></picture
+            ></a>
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/language_search/black-fill.svg"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/language_search/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/language_search/white-fill.svg" width="60px"></source
+                    ><img
+                ></picture
+            ></a>
+            <br>
+            <span>language_search</span>
+        </td>
+        <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/presentation/black.svg"
                 ><picture
                     ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/presentation/black.svg" width="60px"></source
@@ -366,6 +384,8 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <br>
             <span>terminal_history</span>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/tex/black.svg"
                 ><picture
