@@ -293,6 +293,26 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <span>json</span>
         </td>
         <td align="center">
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/language_history/black.svg"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/language_history/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/language_history/white.svg" width="60px"></source
+                    ><img
+                ></picture
+            ></a>
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/language_history/black-fill.svg"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/language_history/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/language_history/white-fill.svg" width="60px"></source
+                    ><img
+                ></picture
+            ></a>
+            <br>
+            <span>language_history</span>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/presentation/black.svg"
                 ><picture
                     ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/presentation/black.svg" width="60px"></source
@@ -310,8 +330,6 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <br>
             <span>presentation</span>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/spreadsheet/black.svg"
                 ><picture
