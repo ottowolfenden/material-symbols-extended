@@ -32,6 +32,20 @@ Below are the icons which have been added so far. The icons below are the non-fi
         </td>
         <td align="center">
             <picture>
+                <source media="(prefers-color-scheme: light)" srcset="readme-svgs/file_3d/black.svg" width="60px"></source>
+                <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/file_3d/white.svg" width="60px"></source>
+                <img>
+            </picture>
+            <picture>
+                <source media="(prefers-color-scheme: light)" srcset="readme-svgs/file_3d/black-fill.svg" width="60px"></source>
+                <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/file_3d/white-fill.svg" width="60px"></source>
+                <img>
+            </picture>
+            <br>
+            <span>file_3d</span>
+        </td>
+        <td align="center">
+            <picture>
                 <source media="(prefers-color-scheme: light)" srcset="readme-svgs/file_code/black.svg" width="60px"></source>
                 <source media="(prefers-color-scheme: dark)" srcset="readme-svgs/file_code/white.svg" width="60px"></source>
                 <img>
@@ -58,6 +72,8 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <br>
             <span>file_font</span>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <picture>
                 <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_desktop/black.svg" width="60px"></source>
@@ -72,8 +88,6 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <br>
             <span>folder_desktop</span>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <picture>
                 <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_documents/black.svg" width="60px"></source>
@@ -116,6 +130,8 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <br>
             <span>folder_home</span>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <picture>
                 <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_lock/black.svg" width="60px"></source>
@@ -130,8 +146,6 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <br>
             <span>folder_lock</span>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <picture>
                 <source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_music/black.svg" width="60px"></source>
@@ -174,6 +188,8 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <br>
             <span>folder_videos</span>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <picture>
                 <source media="(prefers-color-scheme: light)" srcset="readme-svgs/json/black.svg" width="60px"></source>
@@ -188,8 +204,6 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <br>
             <span>json</span>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <picture>
                 <source media="(prefers-color-scheme: light)" srcset="readme-svgs/spreadsheet/black.svg" width="60px"></source>
