@@ -1,6 +1,7 @@
 #!/bin/bash
 
 set -e
+set -o pipefail
 
 cd "$(dirname "${BASH_SOURCE[0]}")"
 
@@ -26,8 +27,13 @@ mkdir -p src-fonts fonts
     done
 }
 
+exclude="(The glyph named|\
+But its name indicates it should be mapped to|\
+The following table\(s\) in the font have been ignored by FontForge|\
+  Ignoring 'STAT' style attributes table)"
+
 echo 'adding svgs to font'
-python add-svgs.py 2>/dev/null
+python -u add-svgs.py 2>&1 | grep --line-buffered -vE "$exclude"
 
 echo 'zipping fonts directory'
 zip -qr ttf-material-symbols-extended.zip fonts
