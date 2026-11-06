@@ -2,6 +2,20 @@ import subprocess
 from fontTools.otlLib.builder import buildLigatureSubstSubtable
 from fontTools.ttLib import TTFont
 
+glyph_names = {
+    "_": "underscore",
+    "0": "digit_zero",
+    "1": "digit_one",
+    "2": "digit_two",
+    "3": "digit_three",
+    "4": "digit_four",
+    "5": "digit_five",
+    "6": "digit_six",
+    "7": "digit_seven",
+    "8": "digit_eight",
+    "9": "digit_nine",
+}
+
 
 def exec(command):
     return subprocess.check_output(command, text=True).strip()
@@ -37,7 +51,7 @@ def addUnicodeMappings(font, codepoint, glyphName):
 
 
 def addLigature(font, name):
-    components = ["underscore" if c == "_" else c for c in name]
+    components = list(map(lambda c: glyph_names.get(c, c), name))
     gsub = font["GSUB"].table
     rlig = next(
         r.Feature for r in gsub.FeatureList.FeatureRecord if r.FeatureTag == "rlig"
