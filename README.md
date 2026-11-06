@@ -71,6 +71,26 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <span>file_code</span>
         </td>
         <td align="center">
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/file_cursor/black.svg"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/file_cursor/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/file_cursor/white.svg" width="60px"></source
+                    ><img
+                ></picture
+            ></a>
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/file_cursor/black-fill.svg"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/file_cursor/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/file_cursor/white-fill.svg" width="60px"></source
+                    ><img
+                ></picture
+            ></a>
+            <br>
+            <span>file_cursor</span>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/file_font/black.svg"
                 ><picture
                     ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/file_font/black.svg" width="60px"></source
@@ -88,8 +108,6 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <br>
             <span>file_font</span>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/file_settings/black.svg"
                 ><picture
@@ -144,6 +162,8 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <br>
             <span>folder_documents</span>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/folder_downloads/black.svg"
                 ><picture
@@ -162,8 +182,6 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <br>
             <span>folder_downloads</span>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/folder_home/black.svg"
                 ><picture
@@ -218,6 +236,8 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <br>
             <span>folder_music</span>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/folder_pictures/black.svg"
                 ><picture
@@ -236,8 +256,6 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <br>
             <span>folder_pictures</span>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/folder_videos/black.svg"
                 ><picture
@@ -292,6 +310,8 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <br>
             <span>presentation</span>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/spreadsheet/black.svg"
                 ><picture
@@ -310,8 +330,6 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <br>
             <span>spreadsheet</span>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/terminal_history/black.svg"
                 ><picture
