@@ -2,7 +2,7 @@
 
 [[ "$1" == "--cancel" ]] && { echo 'cancelled'; exit 0; }
 
-cd "$(dirname "${BASH_SOURCE[0]}")"/svgs || exit 1
+cd "$(dirname "${BASH_SOURCE[0]}")"/../svgs || exit 1
 
 zips=()
 
