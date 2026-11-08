@@ -4,27 +4,27 @@
         {
             "label": "Run all tasks",
             "type": "shell",
-            "command": "./unzip.sh --clean; ./generate.sh && ./add-readme-icons.sh",
+            "command": "./scripts/unzip.sh --clean; ./scripts/generate.sh && ./scripts/add-readme-icons.sh",
             "problemMatcher": []
         },
         {
             "label": "Unzip relevant ZIP archives in ~/downloads",
             "type": "process",
             "command": "bash",
-            "args": ["-c", "./unzip.sh ${input:unzipopts}"],
+            "args": ["-c", "./scripts/unzip.sh ${input:unzipopts}"],
             "problemMatcher": []
         },
         {
             "label": "Generate fonts",
             "type": "process",
             "command": "bash",
-            "args": ["-c", "./generate.sh ${input:generateopts}"],
+            "args": ["-c", "./scripts/generate.sh ${input:generateopts}"],
             "problemMatcher": []
         },
         {
             "label": "Add icons to README.md",
             "type": "process",
-            "command": "./add-readme-icons.sh",
+            "command": "./scripts/add-readme-icons.sh",
             "problemMatcher": []
         }
     ],
