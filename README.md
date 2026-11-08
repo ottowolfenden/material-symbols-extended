@@ -460,5 +460,14 @@ You can use the CSS below for using the icons on the web. You should remove glyp
 }
 ```
 
+Icons can be added to an HTML document as below.
+
+```html
+<span class="icon">_folder_music</span>
+<span class="icon large">_folder_music</span>
+<span class="icon fill">_file_3d</span>
+<span class="icon fill large">_language_history</span>
+```
+
 ### Notice
 This repository contains modified verions of [Google Material Symbols](https://github.com/google/material-design-icons/) (which is licensed under the Apache License 2.0) and is not affiliated with Google. The original Material Symbols in the fonts are Copyright 2026 Google LLC.
