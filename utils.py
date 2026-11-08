@@ -2,7 +2,9 @@ import subprocess
 from fontTools.otlLib.builder import buildLigatureSubstSubtable
 from fontTools.ttLib import TTFont
 
-svg_char_to_glyph_name = {
+version = "2.981"
+
+svgCharToGlyphName = {
     ".": "period",
     "_": "underscore",
     "0": "digit_zero",
@@ -15,6 +17,25 @@ svg_char_to_glyph_name = {
     "7": "digit_seven",
     "8": "digit_eight",
     "9": "digit_nine",
+}
+
+propToNames = {
+    "FILL,opsz@0,24": {
+        "displayName": "Material Symbols Extended 24px",
+        "name": "material-symbols-outlined-24px",
+    },
+    "FILL,opsz@1,24": {
+        "displayName": "Material Symbols Extended 24px Fill",
+        "name": "material-symbols-outlined-24px-fill",
+    },
+    "FILL,opsz@0,48": {
+        "displayName": "Material Symbols Extended 48px",
+        "name": "material-symbols-outlined-48px",
+    },
+    "FILL,opsz@1,48": {
+        "displayName": "Material Symbols Extended 48px Fill",
+        "name": "material-symbols-outlined-48px-fill",
+    },
 }
 
 
@@ -52,7 +73,7 @@ def addUnicodeMappings(font, codepoint, glyphName):
 
 
 def addLigature(font, name):
-    components = list(map(lambda c: svg_char_to_glyph_name.get(c, c), name))
+    components = list(map(lambda c: svgCharToGlyphName.get(c, c), name))
     gsub = font["GSUB"].table
     rlig = next(
         r.Feature for r in gsub.FeatureList.FeatureRecord if r.FeatureTag == "rlig"
@@ -66,3 +87,19 @@ def addLigature(font, name):
                 for first, entries in new.ligatures.items():
                     ligatures.setdefault(first, []).extend(entries)
                 return
+
+
+def addMetadata(font, property):
+    family = propToNames[property]["displayName"]
+    psName = family.replace(" ", "-")
+    versionStr = f"Version {version}"
+    id = f"{version};OTTO;{psName}"
+    idToName = {1: family, 3: id, 4: family, 5: versionStr, 6: psName, 16: family}
+    for record in font["name"].names:
+        if record.nameID in idToName:
+            record.string = idToName[record.nameID].encode(record.getEncoding())
+    font["head"].fontRevision = float(version)
+
+
+def indent(text, level):
+    return ("    " * level) + text
