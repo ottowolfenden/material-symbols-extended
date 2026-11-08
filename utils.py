@@ -22,19 +22,19 @@ svgCharToGlyphName = {
 propToNames = {
     "FILL,opsz@0,24": {
         "displayName": "Material Symbols Extended 24px",
-        "name": "material-symbols-outlined-24px",
+        "name": "material-symbols-extended-24px",
     },
     "FILL,opsz@1,24": {
         "displayName": "Material Symbols Extended 24px Fill",
-        "name": "material-symbols-outlined-24px-fill",
+        "name": "material-symbols-extended-24px-fill",
     },
     "FILL,opsz@0,48": {
         "displayName": "Material Symbols Extended 48px",
-        "name": "material-symbols-outlined-48px",
+        "name": "material-symbols-extended-48px",
     },
     "FILL,opsz@1,48": {
         "displayName": "Material Symbols Extended 48px Fill",
-        "name": "material-symbols-outlined-48px-fill",
+        "name": "material-symbols-extended-48px-fill",
     },
 }
 
