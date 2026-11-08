@@ -1,15 +1,15 @@
 import fontforge
 from fontTools.ttLib import TTFont
 from utils import *
+from data import *
 
-properties = ["FILL,opsz@0,24", "FILL,opsz@1,24", "FILL,opsz@0,48", "FILL,opsz@1,48"]
 names = exec(["ls", "-1", "svgs"]).split("\n")
 tmpPath = exec(["mktemp", "--suffix=.ttf"])
 
-for property in properties:
+for property in properties.keys():
     print(indent(f"adding svgs to {property}", 1))
     srcFontPath = f"src-fonts/{property}.ttf"
-    outFontPath = f"fonts/{propToNames[property]["name"]}.ttf"
+    outFontPath = f"fonts/{properties[property]["name"]}.ttf"
     font, ff = TTFont(srcFontPath), fontforge.open(srcFontPath)
     for codepoint, name in zip(getFreeCodepoints(font, len(names)), names):
         svgPath = f"svgs/{name}/{property}.svg"
