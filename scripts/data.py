@@ -1,4 +1,4 @@
-version = "2.981"
+version = "2.983"
 
 svgCharToGlyphName = {
     ".": "period",
