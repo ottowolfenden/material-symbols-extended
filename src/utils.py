@@ -1,4 +1,4 @@
-import subprocess
+import subprocess, fontforge
 from fontTools.otlLib.builder import buildLigatureSubstSubtable
 from fontTools.ttLib import TTFont
 from data import *
@@ -54,16 +54,17 @@ def addLigature(font, name):
                 return
 
 
-def addMetadata(font, ff, property):
+def addMetadata(font, srcFontPath, property):
     family = properties[property]["displayName"]
     psName = family.replace(" ", "-")
-    versionStr = f"Version {ff.version}"
-    id = f"{ff.version};OTTO;{psName}"
+    version = fontforge.open(srcFontPath).version
+    versionStr = f"Version {version}"
+    id = f"{version};OTTO;{psName}"
     idToName = {1: family, 3: id, 4: family, 5: versionStr, 6: psName, 16: family}
     for record in font["name"].names:
         if record.nameID in idToName:
             record.string = idToName[record.nameID].encode(record.getEncoding())
-    font["head"].fontRevision = float(ff.version)
+    font["head"].fontRevision = float(version)
 
 
 def indent(text, level):
