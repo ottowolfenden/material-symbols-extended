@@ -1,7 +1,5 @@
 #!/bin/bash
 
-cd "$(dirname "${BASH_SOURCE[0]}")"/..
-
 fontver() {
     fontforge \
         -lang=py \
@@ -11,7 +9,7 @@ fontver() {
 }
 
 iprintf() {
-    printf '%*s' "$(( $1 * 4 ))" ""
+    local indent=$1
     shift
-    printf "$@"
+    printf '%*s'"$1" "$((indent * 4))" "" "${@:2}"
 }
