@@ -409,7 +409,7 @@ Below are the icons which have been added so far. The icons below are the non-fi
 
 ## Using on the Web
 
-You can use the CSS below for using the icons on the web. You should remove glyphs you aren't using and compress to woff2 to optimise the font size. Currently the fonts are static so the `font-variation-settings` property cannot be used.
+You can use the CSS below for using the icons on the web (assuming the fonts are in /fonts; the paths below may need changing). You should remove glyphs you aren't using and compress to woff2 to optimise the font size. Currently the fonts are static so the `font-variation-settings` property cannot be used.
 
 ```css
 @font-face {
@@ -445,18 +445,9 @@ You can use the CSS below for using the icons on the web. You should remove glyp
     word-wrap: normal;
     direction: ltr;
 
-    &.fill {
-        font-family: "Material Symbols Extended 24px Fill";
-    }
-
-    &.large {
-        font-family: "Material Symbols Extended 48px";
-        font-size: 48px;
-    }
-
-    &.large.fill {
-        font-family: "Material Symbols Extended 48px Fill";
-    }
+    &.fill { font-family: "Material Symbols Extended 24px Fill"; }
+    &.large { font-family: "Material Symbols Extended 48px"; font-size: 48px; }
+    &.large.fill { font-family: "Material Symbols Extended 48px Fill"; }
 }
 ```
 
@@ -467,6 +458,60 @@ Icons can be added to an HTML document as below.
 <span class="icon large">_folder_music</span>
 <span class="icon fill">_file_3d</span>
 <span class="icon fill large">_language_history</span>
+```
+
+## Using in Qt QML
+
+You can use the QML component below (paste into Icon.qml) for using the icons in Qt QML (the paths to the fonts in the `FontLoader`s may need changing). Icons can be filled by prefixing the name of the icon with "fill:" (useful for embedding icon map objects in JSON files), or by setting the `fill` property. The font automatically switches between 24px to 48px depending on `size`, which can be overidden with the `sizeMidpoint` property.
+
+```qml
+import QtQuick
+
+Item {
+    id: root
+    width: size
+    height: size
+
+    required property string name
+    property color color: sysPalette.text
+    property int size: 24
+    property int sizeMidpoint: 36
+    property bool fill: false
+
+    Text {
+        text: root.name.startsWith("fill:") ? root.name.substring(5) : root.name
+        font.pixelSize: root.size
+        color: root.color
+        renderType: Text.NativeRendering
+        anchors.centerIn: parent
+        font.family: {
+            const fill = root.fill || root.name.startsWith("fill:");
+            if (root.size < root.sizeMidpoint)
+                return fill ? mse24Fill.name : mse24.name;
+            return fill ? mse48Fill.name : mse48.name;
+        }
+    }
+
+    SystemPalette { id: sysPalette }
+    FontLoader { id: mse24; source: "../fonts/material-symbols-extended-24px.ttf" }
+    FontLoader { id: mse24Fill; source: "../fonts/material-symbols-extended-24px-fill.ttf" }
+    FontLoader { id: mse48; source: "../fonts/material-symbols-extended-48px.ttf" }
+    FontLoader { id: mse48Fill; source: "../fonts/material-symbols-extended-48px-fill.ttf" }
+}
+```
+
+Below is an example snippet for a light/dark mode toggle icon which fills on hover and switches icon depending on theme.
+
+```qml
+Icon {
+    name: Config.darkTheme ? "dark_mode" : "light_mode"
+    color: Config.darkTheme ? "white" : "black"
+    fill: hoverHandler.hovered
+    anchors.centerIn: parent
+    size: 20
+}
+
+HoverHandler { id: hoverHandler }
 ```
 
 ## Notice
