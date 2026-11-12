@@ -9,7 +9,7 @@ cd svgs
 zips=()
 srcdir="${1:-"$HOME/downloads"}"
 
-printf 'unzipping from "%s"\n' "$srcdir"
+printf 'attempting to decompress zips in "%s"\n' "$srcdir"
 
 mapfile -d '' -t zips < <(
     find "$srcdir" -type f -iname "*.zip" -exec sh -c '

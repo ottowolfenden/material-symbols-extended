@@ -6,13 +6,18 @@ set -o pipefail
 cd "$(dirname "${BASH_SOURCE[0]}")"/.. || exit 1
 source "src/utils.sh"
 
-[[ "$1" == "--cancel" ]] && { printf 'cancelled\n'; exit 0; }
-
+mustupdate=false
 url="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:"
 ua="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"
 properties=("FILL,opsz@0,24" "FILL,opsz@1,24" "FILL,opsz@0,48" "FILL,opsz@1,48")
 outdir="src-fonts"
 tmpdir=$(mktemp -d)
+updated="$tmpdir/updated"
+
+for arg in "$@"; do
+    [[ "$arg" == "--mustupdate" ]] && mustupdate=true
+    [[ "$arg" == "--cancel" ]] && { printf 'cancelled\n'; exit 0; }
+done
 
 printf 'fetching fonts\n'
 
@@ -41,6 +46,7 @@ for p in "${properties[@]}"; do
                     isupdate &&
                         iprintf 1 'saved %s (%s -> %s)\n' "$p" "$oldver" "$newver"
                 }
+                touch "$updated"
             } || iprintf 1 'discarded %s as %s already exists\n' "$p" "$newver"
             rm -f "$tmpdir/$p.woff2" "$tmpdir/$p.ttf"
         }
@@ -49,4 +55,9 @@ done
 
 wait
 
-rm -rf "$tmpdir"
+[[ ! -f "$updated" && $mustupdate ]] && {
+    rm -rf "$tmpdir"
+    exit 1
+}
+
+rm -rf "$tmpdir" || true
