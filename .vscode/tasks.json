@@ -2,11 +2,35 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Unzip, fetch fonts, add svgs, package, update README.md",
+            "label": "Unzip, fetch fonts, generate, update README.md",
             "type": "shell",
-            "group": "build",
-            "command": "./run.sh",
+            "command": "bash",
+            "args": ["-c", "./run.sh ${input:opts}"],
             "problemMatcher": []
+        }
+    ],
+    "inputs": [
+        {
+            "id": "opts",
+            "type": "command",
+            "command": "extension.commandvariable.pickStringRemember",
+            "args": {
+                "description": "",
+                "key": "opts",
+                "multiPick": true,
+                "separator": " ",
+                "options": [
+                    {
+                        "label": "Only proceed if icons unzipped",
+                        "value": "--mustunzip"
+                    },
+                    {
+                        "label": "Only proceed if upstream font updated",
+                        "value": "--mustupdate"
+                    }
+                ],
+                "default": "--cancel"
+            }
         }
     ]
 }
