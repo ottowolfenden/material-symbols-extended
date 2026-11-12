@@ -54,16 +54,16 @@ def addLigature(font, name):
                 return
 
 
-def addMetadata(font, property):
+def addMetadata(font, ff, property):
     family = properties[property]["displayName"]
     psName = family.replace(" ", "-")
-    versionStr = f"Version {version}"
-    id = f"{version};OTTO;{psName}"
+    versionStr = f"Version {ff.version}"
+    id = f"{ff.version};OTTO;{psName}"
     idToName = {1: family, 3: id, 4: family, 5: versionStr, 6: psName, 16: family}
     for record in font["name"].names:
         if record.nameID in idToName:
             record.string = idToName[record.nameID].encode(record.getEncoding())
-    font["head"].fontRevision = float(version)
+    font["head"].fontRevision = float(ff.version)
 
 
 def indent(text, level):

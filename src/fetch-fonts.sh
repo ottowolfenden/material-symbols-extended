@@ -3,9 +3,10 @@
 set -e
 set -o pipefail
 
-cd "$(dirname "${BASH_SOURCE[0]}")"/..
+cd "$(dirname "${BASH_SOURCE[0]}")"/.. || exit 1
+source "src/utils.sh"
 
-[[ "$1" == "--cancel" ]] && { echo 'cancelled'; exit 0; }
+[[ "$1" == "--cancel" ]] && { printf 'cancelled\n'; exit 0; }
 
 url="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:"
 ua="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"
@@ -13,21 +14,7 @@ properties=("FILL,opsz@0,24" "FILL,opsz@1,24" "FILL,opsz@0,48" "FILL,opsz@1,48")
 outdir="src-fonts"
 tmpdir=$(mktemp -d)
 
-fontver() {
-    fontforge \
-        -lang=py \
-        -c 'print(fontforge.open(sys.argv[1]).version)' \
-        "$1" \
-        2>/dev/null
-}
-
-iprintf() {
-    printf '%*s' "$(( $1 * 4 ))" ""
-    shift
-    printf "$@"
-}
-
-echo 'fetching fonts'
+printf 'fetching fonts\n'
 
 mkdir -p "$outdir"
 

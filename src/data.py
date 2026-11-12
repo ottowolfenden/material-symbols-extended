@@ -1,5 +1,3 @@
-version = "2.983"
-
 svgCharToGlyphName = {
     ".": "period",
     "_": "underscore",

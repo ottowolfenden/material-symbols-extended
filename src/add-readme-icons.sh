@@ -4,6 +4,8 @@ set -e
 
 cd "$(dirname "${BASH_SOURCE[0]}")"/..
 
+[[ "$1" == "--cancel" ]] && { printf 'cancelled\n'; exit 0; }
+
 rm -rf readme-svgs
 mkdir readme-svgs
 cp -r svgs/* readme-svgs
@@ -59,4 +61,4 @@ done < README.md > $tmp
 
 mv $tmp README.md
 
-echo 'added icons to README.md'
+printf 'added icons to README.md\n'

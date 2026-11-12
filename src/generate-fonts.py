@@ -20,8 +20,8 @@ for property in properties.keys():
         addUnicodeMappings(font, codepoint, glyphName)
         addLigature(font, glyphName)
         print(indent(f"U+{codepoint:04X} <- {name}", 2))
+    addMetadata(font, ff, property)
     ff.close()
-    addMetadata(font, property)
     font.save(outFontPath)
 
 exec(["rm", tmpPath])
