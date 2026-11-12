@@ -2,58 +2,11 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Run all tasks",
+            "label": "Unzip, fetch fonts, add svgs, package, update README.md",
             "type": "shell",
-            "command": "./scripts/unzip.sh --clean; ./scripts/generate.sh && ./scripts/add-readme-icons.sh",
+            "group": "build",
+            "command": "./run.sh",
             "problemMatcher": []
-        },
-        {
-            "label": "Unzip relevant ZIP archives in ~/downloads",
-            "type": "process",
-            "command": "bash",
-            "args": ["-c", "./scripts/unzip.sh ${input:unzipopts}"],
-            "problemMatcher": []
-        },
-        {
-            "label": "Generate fonts",
-            "type": "process",
-            "command": "bash",
-            "args": ["-c", "./scripts/generate.sh ${input:generateopts}"],
-            "problemMatcher": []
-        },
-        {
-            "label": "Add icons to README.md",
-            "type": "process",
-            "command": "./scripts/add-readme-icons.sh",
-            "problemMatcher": []
-        }
-    ],
-    "inputs": [
-        {
-            "id": "unzipopts",
-            "type": "command",
-            "command": "extension.commandvariable.pickStringRemember",
-            "args": {
-                "description": "",
-                "key": "unzipopts",
-                "multiPick": true,
-                "separator": " ",
-                "options": [{ "label": "Delete ZIP archives", "value": "--clean" }],
-                "default": "--cancel"
-            }
-        },
-        {
-            "id": "generateopts",
-            "type": "command",
-            "command": "extension.commandvariable.pickStringRemember",
-            "args": {
-                "description": "",
-                "key": "generateopts",
-                "multiPick": true,
-                "separator": " ",
-                "options": [{ "label": "Fetch Material Symbols font", "value": "--fetch" }],
-                "default": "--cancel"
-            }
         }
     ]
 }
