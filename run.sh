@@ -11,7 +11,7 @@ for arg in "$@"; do
     [[ "$arg" == "--cancel" ]] && { printf 'cancelled\n'; exit 0; }
 done
 
-./src/unzip.sh || $mustunzip && {
+(! ./src/unzip.sh && $mustunzip) && {
     printf "exiting without generating as no zip found\n"
     exit 0
 }
