@@ -534,3 +534,9 @@ HoverHandler { id: hoverHandler }
 
 ## Notice
 This repository contains modified verions of [Google Material Symbols](https://github.com/google/material-design-icons/) (which is licensed under the Apache License 2.0) and is not affiliated with Google. The original Material Symbols in the fonts are Copyright 2026 Google LLC.
+
+## Planned Icons
+The following is a list of icons currently planned.
+- _folder_git (combination of folder and custom git icon)
+- _terminal_open (combination of terminal and file_open)
+- _image_vector (potentially a combination of image and something like polyline)
