@@ -4,6 +4,7 @@ cd "$(dirname "${BASH_SOURCE[0]}")"
 
 mustunzip=false
 mustupdate=false
+unzipped=false
 
 for arg in "$@"; do
     [[ "$arg" == "--mustunzip" ]] && mustunzip=true
@@ -11,11 +12,13 @@ for arg in "$@"; do
     [[ "$arg" == "--cancel" ]] && { printf 'cancelled\n'; exit 0; }
 done
 
-(! ./src/unzip.sh && $mustunzip) && {
+./src/unzip.sh && unzipped=true
+
+(! $unzipped && $mustunzip) && {
     printf "exiting without generating as no zip found\n"
     exit 0
 }
-./src/fetch-fonts.sh $($mustupdate && echo "--mustupdate") || $mustupdate && {
+./src/fetch-fonts.sh $($mustupdate && echo "--mustupdate") || ($mustupdate && ! $unzipped) && {
     printf "exiting without generating as no updates found\n"
     exit 0
 }

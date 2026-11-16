@@ -31,7 +31,7 @@
                         "value": "--mustunzip"
                     },
                     {
-                        "label": "Only proceed if upstream font updated",
+                        "label": "Only proceed if upstream font updated or icons unzipped",
                         "value": "--mustupdate"
                     }
                 ],
