@@ -21,4 +21,4 @@ done
 }
 ./src/generate.sh &&
 ./src/package.sh &&
-./src/add-readme-icons.sh
+./src/generate-readme.sh

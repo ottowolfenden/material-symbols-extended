@@ -17,17 +17,17 @@ Below are the icons which have been added so far. The icons below are the non-fi
 <table id="icons">
     <tr>
         <td align="center">
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/book_code/black.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/book_code/black.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/book_code/black.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/book_code/white.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/book_code/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/book_code/white.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/book_code/black-fill.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/book_code/black-fill.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/book_code/black-fill.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/book_code/white-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/book_code/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/book_code/white-fill.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
@@ -35,17 +35,17 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <span>_book_code</span>
         </td>
         <td align="center">
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/file_3d/black.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/file_3d/black.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/file_3d/black.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/file_3d/white.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/file_3d/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/file_3d/white.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/file_3d/black-fill.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/file_3d/black-fill.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/file_3d/black-fill.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/file_3d/white-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/file_3d/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/file_3d/white-fill.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
@@ -53,17 +53,17 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <span>_file_3d</span>
         </td>
         <td align="center">
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/file_code/black.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/file_code/black.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/file_code/black.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/file_code/white.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/file_code/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/file_code/white.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/file_code/black-fill.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/file_code/black-fill.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/file_code/black-fill.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/file_code/white-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/file_code/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/file_code/white-fill.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
@@ -71,17 +71,17 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <span>_file_code</span>
         </td>
         <td align="center">
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/file_cursor/black.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/file_cursor/black.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/file_cursor/black.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/file_cursor/white.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/file_cursor/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/file_cursor/white.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/file_cursor/black-fill.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/file_cursor/black-fill.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/file_cursor/black-fill.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/file_cursor/white-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/file_cursor/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/file_cursor/white-fill.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
@@ -91,17 +91,17 @@ Below are the icons which have been added so far. The icons below are the non-fi
     </tr>
     <tr>
         <td align="center">
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/file_font/black.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/file_font/black.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/file_font/black.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/file_font/white.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/file_font/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/file_font/white.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/file_font/black-fill.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/file_font/black-fill.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/file_font/black-fill.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/file_font/white-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/file_font/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/file_font/white-fill.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
@@ -109,17 +109,17 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <span>_file_font</span>
         </td>
         <td align="center">
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/file_settings/black.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/file_settings/black.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/file_settings/black.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/file_settings/white.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/file_settings/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/file_settings/white.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/file_settings/black-fill.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/file_settings/black-fill.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/file_settings/black-fill.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/file_settings/white-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/file_settings/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/file_settings/white-fill.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
@@ -127,17 +127,17 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <span>_file_settings</span>
         </td>
         <td align="center">
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/folder_desktop/black.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/folder_desktop/black.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_desktop/black.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_desktop/white.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/folder_desktop/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/folder_desktop/white.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/folder_desktop/black-fill.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/folder_desktop/black-fill.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_desktop/black-fill.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_desktop/white-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/folder_desktop/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/folder_desktop/white-fill.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
@@ -145,17 +145,17 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <span>_folder_desktop</span>
         </td>
         <td align="center">
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/folder_documents/black.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/folder_documents/black.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_documents/black.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_documents/white.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/folder_documents/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/folder_documents/white.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/folder_documents/black-fill.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/folder_documents/black-fill.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_documents/black-fill.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_documents/white-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/folder_documents/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/folder_documents/white-fill.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
@@ -165,17 +165,17 @@ Below are the icons which have been added so far. The icons below are the non-fi
     </tr>
     <tr>
         <td align="center">
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/folder_downloads/black.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/folder_downloads/black.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_downloads/black.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_downloads/white.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/folder_downloads/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/folder_downloads/white.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/folder_downloads/black-fill.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/folder_downloads/black-fill.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_downloads/black-fill.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_downloads/white-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/folder_downloads/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/folder_downloads/white-fill.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
@@ -183,17 +183,17 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <span>_folder_downloads</span>
         </td>
         <td align="center">
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/folder_git/black.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/folder_git/black.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_git/black.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_git/white.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/folder_git/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/folder_git/white.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/folder_git/black-fill.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/folder_git/black-fill.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_git/black-fill.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_git/white-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/folder_git/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/folder_git/white-fill.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
@@ -201,17 +201,17 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <span>_folder_git</span>
         </td>
         <td align="center">
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/folder_home/black.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/folder_home/black.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_home/black.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_home/white.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/folder_home/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/folder_home/white.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/folder_home/black-fill.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/folder_home/black-fill.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_home/black-fill.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_home/white-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/folder_home/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/folder_home/white-fill.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
@@ -219,17 +219,17 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <span>_folder_home</span>
         </td>
         <td align="center">
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/folder_lock/black.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/folder_lock/black.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_lock/black.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_lock/white.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/folder_lock/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/folder_lock/white.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/folder_lock/black-fill.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/folder_lock/black-fill.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_lock/black-fill.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_lock/white-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/folder_lock/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/folder_lock/white-fill.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
@@ -239,17 +239,17 @@ Below are the icons which have been added so far. The icons below are the non-fi
     </tr>
     <tr>
         <td align="center">
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/folder_music/black.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/folder_music/black.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_music/black.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_music/white.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/folder_music/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/folder_music/white.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/folder_music/black-fill.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/folder_music/black-fill.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_music/black-fill.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_music/white-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/folder_music/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/folder_music/white-fill.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
@@ -257,17 +257,17 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <span>_folder_music</span>
         </td>
         <td align="center">
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/folder_pictures/black.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/folder_pictures/black.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_pictures/black.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_pictures/white.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/folder_pictures/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/folder_pictures/white.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/folder_pictures/black-fill.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/folder_pictures/black-fill.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_pictures/black-fill.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_pictures/white-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/folder_pictures/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/folder_pictures/white-fill.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
@@ -275,17 +275,17 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <span>_folder_pictures</span>
         </td>
         <td align="center">
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/folder_videos/black.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/folder_videos/black.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_videos/black.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_videos/white.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/folder_videos/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/folder_videos/white.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/folder_videos/black-fill.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/folder_videos/black-fill.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_videos/black-fill.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_videos/white-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/folder_videos/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/folder_videos/white-fill.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
@@ -293,17 +293,17 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <span>_folder_videos</span>
         </td>
         <td align="center">
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/js_box/black.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/js_box/black.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/js_box/black.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/js_box/white.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/js_box/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/js_box/white.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/js_box/black-fill.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/js_box/black-fill.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/js_box/black-fill.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/js_box/white-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/js_box/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/js_box/white-fill.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
@@ -313,17 +313,17 @@ Below are the icons which have been added so far. The icons below are the non-fi
     </tr>
     <tr>
         <td align="center">
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/json/black.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/json/black.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/json/black.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/json/white.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/json/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/json/white.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/json/black-fill.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/json/black-fill.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/json/black-fill.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/json/white-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/json/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/json/white-fill.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
@@ -331,17 +331,17 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <span>_json</span>
         </td>
         <td align="center">
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/language_history/black.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/language_history/black.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/language_history/black.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/language_history/white.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/language_history/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/language_history/white.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/language_history/black-fill.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/language_history/black-fill.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/language_history/black-fill.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/language_history/white-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/language_history/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/language_history/white-fill.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
@@ -349,17 +349,17 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <span>_language_history</span>
         </td>
         <td align="center">
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/language_search/black.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/language_search/black.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/language_search/black.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/language_search/white.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/language_search/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/language_search/white.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/language_search/black-fill.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/language_search/black-fill.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/language_search/black-fill.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/language_search/white-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/language_search/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/language_search/white-fill.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
@@ -367,17 +367,17 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <span>_language_search</span>
         </td>
         <td align="center">
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/open_in_terminal/black.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/open_in_terminal/black.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/open_in_terminal/black.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/open_in_terminal/white.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/open_in_terminal/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/open_in_terminal/white.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/open_in_terminal/black-fill.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/open_in_terminal/black-fill.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/open_in_terminal/black-fill.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/open_in_terminal/white-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/open_in_terminal/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/open_in_terminal/white-fill.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
@@ -387,17 +387,17 @@ Below are the icons which have been added so far. The icons below are the non-fi
     </tr>
     <tr>
         <td align="center">
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/presentation/black.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/presentation/black.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/presentation/black.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/presentation/white.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/presentation/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/presentation/white.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/presentation/black-fill.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/presentation/black-fill.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/presentation/black-fill.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/presentation/white-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/presentation/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/presentation/white-fill.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
@@ -405,17 +405,17 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <span>_presentation</span>
         </td>
         <td align="center">
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/spreadsheet/black.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/spreadsheet/black.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/spreadsheet/black.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/spreadsheet/white.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/spreadsheet/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/spreadsheet/white.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/spreadsheet/black-fill.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/spreadsheet/black-fill.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/spreadsheet/black-fill.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/spreadsheet/white-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/spreadsheet/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/spreadsheet/white-fill.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
@@ -423,17 +423,17 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <span>_spreadsheet</span>
         </td>
         <td align="center">
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/terminal_history/black.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/terminal_history/black.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/terminal_history/black.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/terminal_history/white.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/terminal_history/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/terminal_history/white.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/terminal_history/black-fill.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/terminal_history/black-fill.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/terminal_history/black-fill.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/terminal_history/white-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/terminal_history/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/terminal_history/white-fill.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
@@ -441,17 +441,17 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <span>_terminal_history</span>
         </td>
         <td align="center">
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/tex/black.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/tex/black.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/tex/black.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/tex/white.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/tex/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/tex/white.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>
-            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/tex/black-fill.svg"
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/tex/black-fill.svg"
                 ><picture
-                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/tex/black-fill.svg" width="60px"></source
-                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/tex/white-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/tex/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/tex/white-fill.svg" width="60px"></source
                     ><img
                 ></picture
             ></a>

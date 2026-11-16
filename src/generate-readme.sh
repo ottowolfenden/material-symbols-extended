@@ -6,12 +6,12 @@ cd "$(dirname "${BASH_SOURCE[0]}")"/..
 
 [[ "$1" == "--cancel" ]] && { printf 'cancelled\n'; exit 0; }
 
-rm -rf readme-svgs
-mkdir readme-svgs
-cp -r svgs/* readme-svgs
-rm -f readme-svgs/*/*48.svg
+rm -rf readme/svgs
+mkdir readme/svgs
+cp -r svgs/* readme/svgs
+rm -f readme/svgs/*/*48.svg
 
-for svg in readme-svgs/*/*.svg; do
+for svg in readme/svgs/*/*.svg; do
     relpath=$(realpath --relative-to svgs "$svg")
     base="$(basename "${svg%.*}")"
     whitesvg="$(dirname "$svg")/white-$base.svg"
@@ -19,17 +19,17 @@ for svg in readme-svgs/*/*.svg; do
     sed -i 's/fill="black"/fill="white"/g' "$whitesvg"
 done
 
-for dir in readme-svgs/*; do
+for dir in readme/svgs/*; do
     mv "$dir"/FILL,opsz@0,24.svg "$dir"/black.svg
     mv "$dir"/FILL,opsz@1,24.svg "$dir"/black-fill.svg
     mv "$dir"/white-FILL,opsz@0,24.svg "$dir"/white.svg
     mv "$dir"/white-FILL,opsz@1,24.svg "$dir"/white-fill.svg
 done
 
-template=$(<"readme-icon-template.html")
+template=$(<"readme/icon-td.html")
 tmp=$(mktemp)
 inside=false
-dirs=(readme-svgs/*)
+dirs=(readme/svgs/*)
 cols=4
 
 while IFS= read -r line; do
@@ -41,7 +41,7 @@ while IFS= read -r line; do
             for ((j=0; j<cols; j++)); do
                 dir=${dirs[i+j]:-}
                  [[ -n "$dir" ]] && {
-                    icon=$(realpath --relative-to readme-svgs "$dir")
+                    icon=$(realpath --relative-to readme/svgs "$dir")
                     printf "%s\n" "${template//"%ICON"/"$icon"}"
                 }
             done
