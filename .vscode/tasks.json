@@ -2,7 +2,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Unzip, fetch and generaate fonts, generate README.md",
+            "label": "Unzip, fetch and generate fonts, generate README.md",
             "type": "shell",
             "command": "bash",
             "args": ["-c", "./run.sh ${input:opts}"],
