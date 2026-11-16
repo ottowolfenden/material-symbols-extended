@@ -183,6 +183,24 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <span>_folder_downloads</span>
         </td>
         <td align="center">
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/folder_git/black.svg"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_git/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_git/white.svg" width="60px"></source
+                    ><img
+                ></picture
+            ></a>
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/folder_git/black-fill.svg"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_git/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme-svgs/folder_git/white-fill.svg" width="60px"></source
+                    ><img
+                ></picture
+            ></a>
+            <br>
+            <span>_folder_git</span>
+        </td>
+        <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/folder_home/black.svg"
                 ><picture
                     ><source media="(prefers-color-scheme: light)" srcset="readme-svgs/folder_home/black.svg" width="60px"></source
@@ -218,6 +236,8 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <br>
             <span>_folder_lock</span>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/folder_music/black.svg"
                 ><picture
@@ -236,8 +256,6 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <br>
             <span>_folder_music</span>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/folder_pictures/black.svg"
                 ><picture
@@ -292,6 +310,8 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <br>
             <span>_js_box</span>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/json/black.svg"
                 ><picture
@@ -310,8 +330,6 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <br>
             <span>_json</span>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/language_history/black.svg"
                 ><picture
@@ -366,6 +384,8 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <br>
             <span>_open_in_terminal</span>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/presentation/black.svg"
                 ><picture
@@ -384,8 +404,6 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <br>
             <span>_presentation</span>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme-svgs/spreadsheet/black.svg"
                 ><picture
@@ -555,5 +573,4 @@ This repository contains modified verions of [Google Material Symbols](https://g
 
 ## Planned Icons
 The following is a list of icons currently planned.
-- _folder_git (combination of folder and custom git icon)
 - _image_vector (potentially a combination of image and something like polyline)
