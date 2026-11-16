@@ -33,6 +33,10 @@
                     {
                         "label": "Only proceed if upstream font updated or icons unzipped",
                         "value": "--mustupdate"
+                    },
+                    {
+                        "label": "Do not fetch fonts",
+                        "value": "--nofetch"
                     }
                 ],
                 "default": "--cancel"
