@@ -3,8 +3,11 @@
 set -e
 
 cd "$(dirname "${BASH_SOURCE[0]}")"/..
+source "src/utils.sh"
 
 [[ "$1" == "--cancel" ]] && { printf 'cancelled\n'; exit 0; }
+
+printf 'generating readme\n'
 
 rm -rf readme/svgs
 mkdir readme/svgs
@@ -27,7 +30,6 @@ for dir in readme/svgs/*; do
 done
 
 template=$(<"readme/icon-td.html")
-tmp=$(mktemp)
 inside=false
 dirs=(readme/svgs/*)
 cols=4
@@ -53,12 +55,15 @@ while IFS= read -r line; do
     [[ "$line" == "</table>" ]] && {
         inside=false
         echo "$line"
+        iprintf 1 'added icon table\n' >&2
+        continue
+    }
+
+    [[ "$line" == "INSERT"* ]] && {
+        path="${line//"INSERT "/""}"
+        cat "$path" && iprintf 1 'inserted "%s"\n' "$path" >&2
         continue
     }
 
     ! $inside && echo "$line"
-done < README.md > $tmp
-
-mv $tmp README.md
-
-printf 'added icons to README.md\n'
+done < readme/base.md > README.md

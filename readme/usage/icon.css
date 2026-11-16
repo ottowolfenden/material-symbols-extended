@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Material Symbols Extended 24px";
+    src: url(fonts/material-symbols-extended-24px.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Material Symbols Extended 24px Fill";
+    src: url(fonts/material-symbols-extended-24px-fill.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Material Symbols Extended 48px";
+    src: url(fonts/material-symbols-extended-48px.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Material Symbols Extended 48px Fill";
+    src: url(fonts/material-symbols-extended-48px-fill.ttf) format("truetype");
+}
+
+.icon {
+    font-family: "Material Symbols Extended 24px";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+
+    &.fill { font-family: "Material Symbols Extended 24px Fill"; }
+    &.large { font-family: "Material Symbols Extended 48px"; font-size: 48px; }
+    &.large.fill { font-family: "Material Symbols Extended 48px Fill"; }
+}
