@@ -32,6 +32,9 @@
     direction: ltr;
 
     &.fill { font-family: "Material Symbols Extended 24px Fill"; }
-    &.large { font-family: "Material Symbols Extended 48px"; font-size: 48px; }
     &.large.fill { font-family: "Material Symbols Extended 48px Fill"; }
+    &.large {
+        font-family: "Material Symbols Extended 48px";
+        font-size: 48px;
+    }
 }

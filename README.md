@@ -461,6 +461,19 @@ Below are the icons which have been added so far. The icons below are the non-fi
     </tr>
 </table>
 
+The following is a list of icons currently planned.
+- image_vector
+- file_shellscript
+- magnet
+- lambda
+- binary
+- hexadecimal
+- ethernet
+- not_equal
+- mouse_left_click
+- mouse_right_click
+- mouse_middle_click
+
 ## Using on the Web
 
 You can use the CSS below for using the icons on the web (assuming the fonts are in /fonts; the paths below may need changing). You should remove glyphs you aren't using and compress to woff2 to optimise the font size. Currently the fonts are static so the `font-variation-settings` property cannot be used.
@@ -500,8 +513,11 @@ You can use the CSS below for using the icons on the web (assuming the fonts are
     direction: ltr;
 
     &.fill { font-family: "Material Symbols Extended 24px Fill"; }
-    &.large { font-family: "Material Symbols Extended 48px"; font-size: 48px; }
     &.large.fill { font-family: "Material Symbols Extended 48px Fill"; }
+    &.large {
+        font-family: "Material Symbols Extended 48px";
+        font-size: 48px;
+    }
 }
 ```
 
@@ -570,7 +586,3 @@ HoverHandler { id: hoverHandler }
 
 ## Notice
 This repository contains modified verions of [Google Material Symbols](https://github.com/google/material-design-icons/) (which is licensed under the Apache License 2.0) and is not affiliated with Google. The original Material Symbols in the fonts are Copyright 2026 Google LLC.
-
-## Planned Icons
-The following is a list of icons currently planned.
-- _image_vector (potentially a combination of image and something like polyline)
