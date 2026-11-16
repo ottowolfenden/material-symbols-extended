@@ -25,10 +25,6 @@ The following is a list of icons currently planned.
 - binary
 - hexadecimal
 - ethernet
-- not_equal
-- mouse_left_click
-- mouse_right_click
-- mouse_middle_click
 
 ## Using on the Web
 
