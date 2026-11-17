@@ -15,7 +15,6 @@ cp -r svgs/* readme/svgs
 rm -f readme/svgs/*/*48.svg
 
 for svg in readme/svgs/*/*.svg; do
-    relpath=$(realpath --relative-to svgs "$svg")
     base="$(basename "${svg%.*}")"
     whitesvg="$(dirname "$svg")/white-$base.svg"
     cp "$svg" "$whitesvg"

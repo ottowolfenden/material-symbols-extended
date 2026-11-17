@@ -36,8 +36,8 @@ for p in "${properties[@]}"; do
 
             oldver=$(fontver "$outdir/$p.ttf" || printf "none")
             newver=$(fontver "$tmpdir/$p.ttf")
-            isnew() { [[ "$oldver" == "none" ]] }
-            isupdate() { [[ "$oldver" != "$newver" && "$oldver" != "none" ]] }
+            isnew() { [[ "$oldver" == "none" ]]; }
+            isupdate() { [[ "$oldver" != "$newver" && "$oldver" != "none" ]]; }
 
             (isnew || isupdate) && {
                 cp "$tmpdir/$p.ttf" "$outdir" && {

@@ -4,7 +4,7 @@
 
 cd "$(dirname "${BASH_SOURCE[0]}")"/.. || exit 1
 source "src/utils.sh"
-cd svgs
+cd svgs || exit
 
 zips=()
 srcdir="${1:-"$HOME/downloads"}"

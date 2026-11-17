@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd "$(dirname "${BASH_SOURCE[0]}")"
+cd "$(dirname "${BASH_SOURCE[0]}")" || exit
 
 mustunzip=false
 mustupdate=false
@@ -20,7 +20,7 @@ done
     exit 0
 }
 $nofetch && printf 'skipping fetch\n' || {
-    ./src/fetch-fonts.sh $($mustupdate && echo "--mustupdate") || ($mustupdate && ! $unzipped) && {
+    ./src/fetch-fonts.sh "$($mustupdate && echo --mustupdate)" || ($mustupdate && ! $unzipped) && {
         printf "exiting without generating as no updates found\n"
         exit 0
     }
