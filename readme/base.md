@@ -12,7 +12,7 @@ To download, clone the repository or use the links below. Ligatures are the same
 [Download SVG icons (zip)](https://github.com/ottowolfenden/material-symbols-extended/raw/main/svg-material-symbols-extended.zip)
 
 ## Icons
-Below are the icons which have been added so far. The icons below are the non-fill and fill variants at optical size 24px (displayed at 60px width), but there are also non-fill and fill variants at optical size 48px for every icon.
+Below are the icons which have been added so far (original Material Symbols are also included in the font and can be browsed at [Google Fonts](https://fonts.google.com/icons)). The icons below are the non-fill and fill variants at optical size 24px (displayed at 60px width), but there are also non-fill and fill variants at optical size 48px for every icon.
 
 <table id="icons">
 </table>
@@ -23,7 +23,6 @@ The following is a list of icons currently planned.
 - magnet
 - lambda
 - binary
-- hexadecimal
 - ethernet
 
 ## Using on the Web

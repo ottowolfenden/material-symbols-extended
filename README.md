@@ -12,7 +12,7 @@ To download, clone the repository or use the links below. Ligatures are the same
 [Download SVG icons (zip)](https://github.com/ottowolfenden/material-symbols-extended/raw/main/svg-material-symbols-extended.zip)
 
 ## Icons
-Below are the icons which have been added so far. The icons below are the non-fill and fill variants at optical size 24px (displayed at 60px width), but there are also non-fill and fill variants at optical size 48px for every icon.
+Below are the icons which have been added so far (original Material Symbols are also included in the font and can be browsed at [Google Fonts](https://fonts.google.com/icons)). The icons below are the non-fill and fill variants at optical size 24px (displayed at 60px width), but there are also non-fill and fill variants at optical size 48px for every icon.
 
 <table id="icons">
     <tr>
@@ -293,6 +293,26 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <span>_folder_videos</span>
         </td>
         <td align="center">
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/hexadecimal/black.svg"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/hexadecimal/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/hexadecimal/white.svg" width="60px"></source
+                    ><img
+                ></picture
+            ></a>
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/hexadecimal/black-fill.svg"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/hexadecimal/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/hexadecimal/white-fill.svg" width="60px"></source
+                    ><img
+                ></picture
+            ></a>
+            <br>
+            <span>_hexadecimal</span>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/js_box/black.svg"
                 ><picture
                     ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/js_box/black.svg" width="60px"></source
@@ -310,8 +330,6 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <br>
             <span>_js_box</span>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/json/black.svg"
                 ><picture
@@ -366,6 +384,8 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <br>
             <span>_language_search</span>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/open_in_terminal/black.svg"
                 ><picture
@@ -384,8 +404,6 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <br>
             <span>_open_in_terminal</span>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/presentation/black.svg"
                 ><picture
@@ -440,6 +458,8 @@ Below are the icons which have been added so far. The icons below are the non-fi
             <br>
             <span>_terminal_history</span>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/tex/black.svg"
                 ><picture
@@ -467,7 +487,6 @@ The following is a list of icons currently planned.
 - magnet
 - lambda
 - binary
-- hexadecimal
 - ethernet
 
 ## Using on the Web
