@@ -127,6 +127,24 @@ Below are the icons which have been added so far (original Material Symbols are 
             <span>_file_settings</span>
         </td>
         <td align="center">
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/file_shellscript/black.svg"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/file_shellscript/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/file_shellscript/white.svg" width="60px"></source
+                    ><img
+                ></picture
+            ></a>
+            <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/file_shellscript/black-fill.svg"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/file_shellscript/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/file_shellscript/white-fill.svg" width="60px"></source
+                    ><img
+                ></picture
+            ></a>
+            <br>
+            <span>_file_shellscript</span>
+        </td>
+        <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/folder_desktop/black.svg"
                 ><picture
                     ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/folder_desktop/black.svg" width="60px"></source
@@ -144,6 +162,8 @@ Below are the icons which have been added so far (original Material Symbols are 
             <br>
             <span>_folder_desktop</span>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/folder_documents/black.svg"
                 ><picture
@@ -162,8 +182,6 @@ Below are the icons which have been added so far (original Material Symbols are 
             <br>
             <span>_folder_documents</span>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/folder_downloads/black.svg"
                 ><picture
@@ -218,6 +236,8 @@ Below are the icons which have been added so far (original Material Symbols are 
             <br>
             <span>_folder_home</span>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/folder_lock/black.svg"
                 ><picture
@@ -236,8 +256,6 @@ Below are the icons which have been added so far (original Material Symbols are 
             <br>
             <span>_folder_lock</span>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/folder_music/black.svg"
                 ><picture
@@ -292,6 +310,8 @@ Below are the icons which have been added so far (original Material Symbols are 
             <br>
             <span>_folder_videos</span>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/hexadecimal/black.svg"
                 ><picture
@@ -310,8 +330,6 @@ Below are the icons which have been added so far (original Material Symbols are 
             <br>
             <span>_hexadecimal</span>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/js_box/black.svg"
                 ><picture
@@ -366,6 +384,8 @@ Below are the icons which have been added so far (original Material Symbols are 
             <br>
             <span>_language_history</span>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/language_search/black.svg"
                 ><picture
@@ -384,8 +404,6 @@ Below are the icons which have been added so far (original Material Symbols are 
             <br>
             <span>_language_search</span>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/open_in_terminal/black.svg"
                 ><picture
@@ -440,6 +458,8 @@ Below are the icons which have been added so far (original Material Symbols are 
             <br>
             <span>_spreadsheet</span>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/terminal_history/black.svg"
                 ><picture
@@ -458,8 +478,6 @@ Below are the icons which have been added so far (original Material Symbols are 
             <br>
             <span>_terminal_history</span>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://raw.githubusercontent.com/ottowolfenden/material-symbols-extended/refs/heads/main/readme/svgs/tex/black.svg"
                 ><picture
@@ -483,7 +501,6 @@ Below are the icons which have been added so far (original Material Symbols are 
 
 The following is a list of icons currently planned.
 - image_vector
-- file_shellscript
 - magnet
 - lambda
 - binary

@@ -19,7 +19,6 @@ Below are the icons which have been added so far (original Material Symbols are 
 
 The following is a list of icons currently planned.
 - image_vector
-- file_shellscript
 - magnet
 - lambda
 - binary
