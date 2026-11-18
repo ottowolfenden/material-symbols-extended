@@ -508,7 +508,7 @@ The following is a list of icons currently planned.
 
 ## Using on the Web
 
-You can use the CSS below for using the icons on the web (assuming the fonts are in /fonts; the paths below may need changing). You should remove glyphs you aren't using and compress to woff2 to optimise the font size. Currently the fonts are static so the `font-variation-settings` property cannot be used.
+You can use the CSS below for using the icons on the web (if the fonts are not in ./fonts, the paths below need to be changed). You should remove glyphs you aren't using and compress to woff2 to optimise the font size. Currently the fonts are static so the `font-variation-settings` property cannot be used.
 
 ```css
 @font-face {
