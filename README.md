@@ -595,10 +595,10 @@ Item {
     }
 
     SystemPalette { id: sysPalette }
-    FontLoader { id: mse24; source: "../fonts/material-symbols-extended-24px.ttf" }
-    FontLoader { id: mse24Fill; source: "../fonts/material-symbols-extended-24px-fill.ttf" }
-    FontLoader { id: mse48; source: "../fonts/material-symbols-extended-48px.ttf" }
-    FontLoader { id: mse48Fill; source: "../fonts/material-symbols-extended-48px-fill.ttf" }
+    FontLoader { id: mse24; source: "./fonts/material-symbols-extended-24px.ttf" }
+    FontLoader { id: mse24Fill; source: "./fonts/material-symbols-extended-24px-fill.ttf" }
+    FontLoader { id: mse48; source: "./fonts/material-symbols-extended-48px.ttf" }
+    FontLoader { id: mse48Fill; source: "./fonts/material-symbols-extended-48px-fill.ttf" }
 }
 ```
 
