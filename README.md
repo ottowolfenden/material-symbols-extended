@@ -557,7 +557,7 @@ Icons can be added to an HTML document as below.
 
 ```html
 <span class="icon">_folder_music</span>
-<span class="icon large">_folder_music</span>
+<span class="icon large">_json</span>
 <span class="icon fill">_file_3d</span>
 <span class="icon fill large">_language_history</span>
 ```
