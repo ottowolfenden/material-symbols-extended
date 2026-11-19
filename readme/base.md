@@ -18,11 +18,21 @@ Below are the icons which have been added so far (original Material Symbols are 
 </table>
 
 The following is a list of icons currently planned.
-- image_vector
-- magnet
-- lambda
-- binary
-- ethernet
+- file_empty (draft icon dashed like chat_dashed)
+- code_editor (combination of a window icon and code or edit icons)
+- path_posix_absolute ("/" in a box)
+- path_windows_absolute ("C:\\" in a box)
+- path_posix_relative ("./" in a box)
+- path_windows_relative (".\\" in a box)
+- file_location (draft with location pin)
+- folder_location (folder with location pin)
+- view_tree (horizontal tree diagram)
+- file_diff (draft icon with plus and minus)
+- hard_disk_full (hard_disk icon with exclamation mark)
+- binary (zeros and ones in a grid, or just "bin" in a box)
+- image_vector (image with nodes and path, similar to polyline icon)
+- magnet (U-shaped magnet)
+- ethernet (cross-section of ethernet connector)
 
 ## Using on the Web
 
