@@ -50,7 +50,7 @@ You can use the CSS below for using the icons on the web (the paths below may ne
 INSERT readme/usage/icon.css
 ```
 
-Icons can then be added to an HTML document as below for example.
+Icons can then be added to an HTML document as below for example. The last `<span>` uses the codepoint of _book_code directly instead of the ligature (either can be used).
 
 ```html
 INSERT readme/usage/example.html
@@ -64,7 +64,7 @@ You can use the QML component below (paste into Icon.qml) for using the icons in
 INSERT readme/usage/Icon.qml
 ```
 
-Below is an example snippet for a light/dark mode toggle icon which fills on hover and switches icon depending on theme.
+Below is an example snippet for a light/dark mode toggle icon which fills on hover and switches icon depending on theme. To use a codepoint directly (if ligatures don't work), set the `name` property to `String.fromCodePoint(0x10FFFC)` for example.
 
 ```qml
 INSERT readme/usage/example.qml

@@ -735,13 +735,13 @@ You can use the CSS below for using the icons on the web (the paths below may ne
 }
 ```
 
-Icons can then be added to an HTML document as below for example.
+Icons can then be added to an HTML document as below for example. The last `<span>` uses the codepoint of _book_code directly instead of the ligature (either can be used).
 
 ```html
 <span class="icon">_folder_music</span>
 <span class="icon large">_json</span>
 <span class="icon fill">_file_3d</span>
-<span class="icon fill large">_language_history</span>
+<span class="icon fill large">&#x10FFFC;</span>
 ```
 
 ## Using in Qt QML
@@ -784,7 +784,7 @@ Item {
 }
 ```
 
-Below is an example snippet for a light/dark mode toggle icon which fills on hover and switches icon depending on theme.
+Below is an example snippet for a light/dark mode toggle icon which fills on hover and switches icon depending on theme. To use a codepoint directly (if ligatures don't work), set the `name` property to `String.fromCodePoint(0x10FFFC)` for example.
 
 ```qml
 Icon {
