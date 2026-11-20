@@ -1,0 +1,66 @@
+{
+    "codepoints": {
+        "book_code": "0x10FFFD",
+        "file_3d": "0x10FFFC",
+        "file_code": "0x10FFFB",
+        "file_cursor": "0x10FFFA",
+        "file_dashed": "0x10FFF9",
+        "file_font": "0x10FFF8",
+        "file_settings": "0x10FFF7",
+        "file_shellscript": "0x10FFF6",
+        "folder_dashed": "0x10FFF5",
+        "folder_desktop": "0x10FFF4",
+        "folder_documents": "0x10FFF3",
+        "folder_downloads": "0x10FFF2",
+        "folder_git": "0x10FFF1",
+        "folder_home": "0x10FFF0",
+        "folder_lock": "0x10FFEF",
+        "folder_music": "0x10FFEE",
+        "folder_pictures": "0x10FFED",
+        "folder_videos": "0x10FFEC",
+        "hard_disk_full": "0x10FFEB",
+        "hexadecimal": "0x10FFEA",
+        "js_box": "0x10FFE9",
+        "json": "0x10FFE8",
+        "language_history": "0x10FFE7",
+        "language_search": "0x10FFE6",
+        "open_in_terminal": "0x10FFE5",
+        "presentation": "0x10FFE4",
+        "spreadsheet": "0x10FFE3",
+        "terminal_history": "0x10FFE2",
+        "tex": "0x10FFE1",
+        "window_code": "0x10FFE0"
+    },
+    "glyphNames": {
+        ".": "period",
+        "0": "digit_zero",
+        "1": "digit_one",
+        "2": "digit_two",
+        "3": "digit_three",
+        "4": "digit_four",
+        "5": "digit_five",
+        "6": "digit_six",
+        "7": "digit_seven",
+        "8": "digit_eight",
+        "9": "digit_nine",
+        "_": "underscore"
+    },
+    "properties": {
+        "FILL,opsz@0,24": {
+            "displayName": "Material Symbols Extended 24px",
+            "name": "material-symbols-extended-24px"
+        },
+        "FILL,opsz@0,48": {
+            "displayName": "Material Symbols Extended 48px",
+            "name": "material-symbols-extended-48px"
+        },
+        "FILL,opsz@1,24": {
+            "displayName": "Material Symbols Extended 24px Fill",
+            "name": "material-symbols-extended-24px-fill"
+        },
+        "FILL,opsz@1,48": {
+            "displayName": "Material Symbols Extended 48px Fill",
+            "name": "material-symbols-extended-48px-fill"
+        }
+    }
+}

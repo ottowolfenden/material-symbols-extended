@@ -15,7 +15,10 @@ The following table\(s\) in the font have been ignored by FontForge|\
 
 mkdir -p fonts
 
-printf 'generating fonts\n'
+printf 'assigning codepoints\n'
+python src/set-codepoints.py
+
+printf 'adding svgs to fonts\n'
 for prop in "${props[@]}"; do
     (
         python -u src/generate-fonts.py "$prop" 2>&1 |

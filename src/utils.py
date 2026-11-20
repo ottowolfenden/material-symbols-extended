@@ -1,19 +1,17 @@
-import subprocess, fontforge
+import subprocess, fontforge, json
 from fontTools.otlLib.builder import buildLigatureSubstSubtable
 from fontTools.ttLib import TTFont
-from data import *
+
+with open("src/data.json", "r") as f:
+    data = json.load(f)
 
 
 def exec(command):
     return subprocess.check_output(command, text=True).strip()
 
 
-def getFreeCodepoints(font, count):
-    used = set()
-    for table in filter(lambda t: t.isUnicode(), font["cmap"].tables):
-        used.update(table.cmap.keys())
-    free = (cp for cp in range(0xE000, 0xF900) if cp not in used)
-    return [next(free) for _ in range(count)]
+def getCodepoints():
+    return {name: int(cp, 16) for name, cp in data["codepoints"].items()}.items()
 
 
 def addSvg(ff, codepoint, glyphName, svgPath):
@@ -33,12 +31,14 @@ def mergeGlyphInto(font, tmpFontPath, glyphName):
 
 
 def addUnicodeMappings(font, codepoint, glyphName):
-    for table in filter(lambda t: t.isUnicode(), font["cmap"].tables):
+    for table in filter(
+        lambda t: t.isUnicode() and t.format == 12, font["cmap"].tables
+    ):
         table.cmap[codepoint] = glyphName
 
 
 def addLigature(font, name):
-    components = list(map(lambda c: svgCharToGlyphName.get(c, c), name))
+    components = list(map(lambda c: data["glyphNames"].get(c, c), name))
     gsub = font["GSUB"].table
     rlig = next(
         r.Feature for r in gsub.FeatureList.FeatureRecord if r.FeatureTag == "rlig"
@@ -55,7 +55,7 @@ def addLigature(font, name):
 
 
 def addMetadata(font, srcFontPath, property):
-    family = properties[property]["displayName"]
+    family = data["properties"][property]["displayName"]
     psName = family.replace(" ", "-")
     version = fontforge.open(srcFontPath).version
     versionStr = f"Version {version}"
