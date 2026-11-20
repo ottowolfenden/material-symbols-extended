@@ -533,15 +533,33 @@ Below are the icons which have been added so far (original Material Symbols are 
             <span>&nbsp;&nbsp;_tex&nbsp;&nbsp;</span>
         </td>
     </tr>
+    <tr>
+        <td align="center">
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/window_code"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/window_code/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/window_code/white.svg" width="60px"></source
+                    ><img
+                ></picture
+            ></a>
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/window_code"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/window_code/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/window_code/white-fill.svg" width="60px"></source
+                    ><img
+                ></picture
+            ></a>
+            <br>
+            <span>&nbsp;&nbsp;_window_code&nbsp;&nbsp;</span>
+        </td>
+    </tr>
 </table>
 
 The following is a list of icons currently planned.
-- code_editor (combination of a window icon and code or edit icons)
 - path_posix_absolute ("/" in a box)
 - path_windows_absolute ("C:\\" in a box)
 - path_posix_relative ("./" in a box)
 - path_windows_relative (".\\" in a box)
-- folder_dashed (folder icon dashed like chat_dashed)
 - file_location (draft with location pin)
 - folder_location (folder with location pin)
 - view_tree (horizontal tree diagram)

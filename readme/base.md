@@ -18,7 +18,6 @@ Below are the icons which have been added so far (original Material Symbols are 
 </table>
 
 The following is a list of icons currently planned.
-- code_editor (combination of a window icon and code or edit icons)
 - path_posix_absolute ("/" in a box)
 - path_windows_absolute ("C:\\" in a box)
 - path_posix_relative ("./" in a box)
