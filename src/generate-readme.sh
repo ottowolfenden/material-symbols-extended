@@ -34,7 +34,7 @@ dirs=(readme/svgs/*)
 cols=4
 
 while IFS= read -r line; do
-    [[ "$line" == '<table id="icons">' ]] && {
+    [[ "$line" == '<table id="icons"'* ]] && {
         inside=true
         echo "$line"
         for ((i=0; i<${#dirs[@]}; i+=cols)); do
