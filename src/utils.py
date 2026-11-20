@@ -2,7 +2,7 @@ import subprocess, fontforge, json
 from fontTools.otlLib.builder import buildLigatureSubstSubtable
 from fontTools.ttLib import TTFont
 
-with open("src/data.json", "r") as f:
+with open("data.json", "r") as f:
     data = json.load(f)
 
 
