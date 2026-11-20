@@ -5,7 +5,7 @@ An extended version of Material Symbols Outlined icon fonts containing extra ico
 This project uses the [FontTools](https://github.com/fonttools/fonttools) and [FontForge](https://github.com/fontforge/fontforge) Python libraries to combine the original Material Symbols fonts with SVGs produced in Figma.
 
 ## Downloads and Usage
-To download, clone the repository or use the links below. Ligatures are the same for the original Material Symbols (e.g. person, more_horiz) and for the extra icons, prepend with an underscore (e.g. _folder_home for the folder_home icon). This is so that if the original font is updated with an icon of the same name, there will not be a collision. When the original font gets updated or new extended icons are added, codepoints for the extended glyphs will change so ligatures must be used (or the font not updated).
+To download, clone the repository or use the links below. Ligatures are the same for the original Material Symbols (e.g. person, more_horiz) and for the extra icons, prepend with an underscore (e.g. _folder_home for the folder_home icon). This is so that if the original font is updated with an icon of the same name, there will not be a collision. When the original font gets updated or new extended icons are added, codepoints for the extended glyphs will change so ligatures must be used (or the font not updated). See [Using on the Web](#using-on-the-web) for how to extract only the icons you need and convert to woff2.
 
 [Download TTF icon fonts (zip)](https://github.com/ottowolfenden/material-symbols-extended/raw/main/ttf-material-symbols-extended.zip)
 
@@ -36,13 +36,19 @@ The following is a list of icons currently planned.
 
 ## Using on the Web
 
-You can use the CSS below for using the icons on the web (if the fonts are not in ./fonts, the paths below need to be changed). You should remove glyphs you aren't using and compress to woff2 to optimise the font size. Currently the fonts are static so the `font-variation-settings` property cannot be used.
+To avoid loading huge font files when a page loads, you should [download the fonts](https://github.com/ottowolfenden/material-symbols-extended/raw/main/ttf-material-symbols-extended.zip) then create a font containing only the icons you need and compress to woff2. To do this, install [FontTools](https://github.com/fonttools/fonttools) with `pip install fonttools`, and run with the desired font variant and glyphs (the example command below creates a woff2 font in the 24px non-fill style with only the search, _json and _tex glyphs).
+
+```bash
+fonttools subset material-symbols-extended-24px.ttf --glyphs=search,_json --flavor=woff2
+```
+
+You can use the CSS below for using the icons on the web (the paths below may need to be changed).
 
 ```css
 INSERT readme/usage/icon.css
 ```
 
-Icons can be added to an HTML document as below.
+Icons can then be added to an HTML document as below for example.
 
 ```html
 INSERT readme/usage/example.html
