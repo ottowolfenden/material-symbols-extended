@@ -32,7 +32,7 @@ Below are the icons which have been added so far (original Material Symbols are 
                 ></picture
             ></a>
             <br>
-            <span>_book_code</span>
+            <span>&nbsp;&nbsp;_book_code&nbsp;&nbsp;</span>
         </td>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/file_3d"
@@ -50,7 +50,7 @@ Below are the icons which have been added so far (original Material Symbols are 
                 ></picture
             ></a>
             <br>
-            <span>_file_3d</span>
+            <span>&nbsp;&nbsp;_file_3d&nbsp;&nbsp;</span>
         </td>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/file_code"
@@ -68,7 +68,7 @@ Below are the icons which have been added so far (original Material Symbols are 
                 ></picture
             ></a>
             <br>
-            <span>_file_code</span>
+            <span>&nbsp;&nbsp;_file_code&nbsp;&nbsp;</span>
         </td>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/file_cursor"
@@ -86,7 +86,7 @@ Below are the icons which have been added so far (original Material Symbols are 
                 ></picture
             ></a>
             <br>
-            <span>_file_cursor</span>
+            <span>&nbsp;&nbsp;_file_cursor&nbsp;&nbsp;</span>
         </td>
     </tr>
     <tr>
@@ -106,7 +106,7 @@ Below are the icons which have been added so far (original Material Symbols are 
                 ></picture
             ></a>
             <br>
-            <span>_file_font</span>
+            <span>&nbsp;&nbsp;_file_font&nbsp;&nbsp;</span>
         </td>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/file_settings"
@@ -124,7 +124,7 @@ Below are the icons which have been added so far (original Material Symbols are 
                 ></picture
             ></a>
             <br>
-            <span>_file_settings</span>
+            <span>&nbsp;&nbsp;_file_settings&nbsp;&nbsp;</span>
         </td>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/file_shellscript"
@@ -142,7 +142,7 @@ Below are the icons which have been added so far (original Material Symbols are 
                 ></picture
             ></a>
             <br>
-            <span>_file_shellscript</span>
+            <span>&nbsp;&nbsp;_file_shellscript&nbsp;&nbsp;</span>
         </td>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/folder_desktop"
@@ -160,7 +160,7 @@ Below are the icons which have been added so far (original Material Symbols are 
                 ></picture
             ></a>
             <br>
-            <span>_folder_desktop</span>
+            <span>&nbsp;&nbsp;_folder_desktop&nbsp;&nbsp;</span>
         </td>
     </tr>
     <tr>
@@ -180,7 +180,7 @@ Below are the icons which have been added so far (original Material Symbols are 
                 ></picture
             ></a>
             <br>
-            <span>_folder_documents</span>
+            <span>&nbsp;&nbsp;_folder_documents&nbsp;&nbsp;</span>
         </td>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/folder_downloads"
@@ -198,7 +198,7 @@ Below are the icons which have been added so far (original Material Symbols are 
                 ></picture
             ></a>
             <br>
-            <span>_folder_downloads</span>
+            <span>&nbsp;&nbsp;_folder_downloads&nbsp;&nbsp;</span>
         </td>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/folder_git"
@@ -216,7 +216,7 @@ Below are the icons which have been added so far (original Material Symbols are 
                 ></picture
             ></a>
             <br>
-            <span>_folder_git</span>
+            <span>&nbsp;&nbsp;_folder_git&nbsp;&nbsp;</span>
         </td>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/folder_home"
@@ -234,7 +234,7 @@ Below are the icons which have been added so far (original Material Symbols are 
                 ></picture
             ></a>
             <br>
-            <span>_folder_home</span>
+            <span>&nbsp;&nbsp;_folder_home&nbsp;&nbsp;</span>
         </td>
     </tr>
     <tr>
@@ -254,7 +254,7 @@ Below are the icons which have been added so far (original Material Symbols are 
                 ></picture
             ></a>
             <br>
-            <span>_folder_lock</span>
+            <span>&nbsp;&nbsp;_folder_lock&nbsp;&nbsp;</span>
         </td>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/folder_music"
@@ -272,7 +272,7 @@ Below are the icons which have been added so far (original Material Symbols are 
                 ></picture
             ></a>
             <br>
-            <span>_folder_music</span>
+            <span>&nbsp;&nbsp;_folder_music&nbsp;&nbsp;</span>
         </td>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/folder_pictures"
@@ -290,7 +290,7 @@ Below are the icons which have been added so far (original Material Symbols are 
                 ></picture
             ></a>
             <br>
-            <span>_folder_pictures</span>
+            <span>&nbsp;&nbsp;_folder_pictures&nbsp;&nbsp;</span>
         </td>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/folder_videos"
@@ -308,7 +308,7 @@ Below are the icons which have been added so far (original Material Symbols are 
                 ></picture
             ></a>
             <br>
-            <span>_folder_videos</span>
+            <span>&nbsp;&nbsp;_folder_videos&nbsp;&nbsp;</span>
         </td>
     </tr>
     <tr>
@@ -328,7 +328,7 @@ Below are the icons which have been added so far (original Material Symbols are 
                 ></picture
             ></a>
             <br>
-            <span>_hexadecimal</span>
+            <span>&nbsp;&nbsp;_hexadecimal&nbsp;&nbsp;</span>
         </td>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/js_box"
@@ -346,7 +346,7 @@ Below are the icons which have been added so far (original Material Symbols are 
                 ></picture
             ></a>
             <br>
-            <span>_js_box</span>
+            <span>&nbsp;&nbsp;_js_box&nbsp;&nbsp;</span>
         </td>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/json"
@@ -364,7 +364,7 @@ Below are the icons which have been added so far (original Material Symbols are 
                 ></picture
             ></a>
             <br>
-            <span>_json</span>
+            <span>&nbsp;&nbsp;_json&nbsp;&nbsp;</span>
         </td>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/language_history"
@@ -382,7 +382,7 @@ Below are the icons which have been added so far (original Material Symbols are 
                 ></picture
             ></a>
             <br>
-            <span>_language_history</span>
+            <span>&nbsp;&nbsp;_language_history&nbsp;&nbsp;</span>
         </td>
     </tr>
     <tr>
@@ -402,7 +402,7 @@ Below are the icons which have been added so far (original Material Symbols are 
                 ></picture
             ></a>
             <br>
-            <span>_language_search</span>
+            <span>&nbsp;&nbsp;_language_search&nbsp;&nbsp;</span>
         </td>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/open_in_terminal"
@@ -420,7 +420,7 @@ Below are the icons which have been added so far (original Material Symbols are 
                 ></picture
             ></a>
             <br>
-            <span>_open_in_terminal</span>
+            <span>&nbsp;&nbsp;_open_in_terminal&nbsp;&nbsp;</span>
         </td>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/presentation"
@@ -438,7 +438,7 @@ Below are the icons which have been added so far (original Material Symbols are 
                 ></picture
             ></a>
             <br>
-            <span>_presentation</span>
+            <span>&nbsp;&nbsp;_presentation&nbsp;&nbsp;</span>
         </td>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/spreadsheet"
@@ -456,7 +456,7 @@ Below are the icons which have been added so far (original Material Symbols are 
                 ></picture
             ></a>
             <br>
-            <span>_spreadsheet</span>
+            <span>&nbsp;&nbsp;_spreadsheet&nbsp;&nbsp;</span>
         </td>
     </tr>
     <tr>
@@ -476,7 +476,7 @@ Below are the icons which have been added so far (original Material Symbols are 
                 ></picture
             ></a>
             <br>
-            <span>_terminal_history</span>
+            <span>&nbsp;&nbsp;_terminal_history&nbsp;&nbsp;</span>
         </td>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/tex"
@@ -494,7 +494,7 @@ Below are the icons which have been added so far (original Material Symbols are 
                 ></picture
             ></a>
             <br>
-            <span>_tex</span>
+            <span>&nbsp;&nbsp;_tex&nbsp;&nbsp;</span>
         </td>
     </tr>
 </table>
