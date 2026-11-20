@@ -4,8 +4,8 @@ An extended version of Material Symbols Outlined icon fonts containing extra ico
 
 This project uses the [FontTools](https://github.com/fonttools/fonttools) and [FontForge](https://github.com/fontforge/fontforge) Python libraries to combine the original Material Symbols fonts with SVGs produced in Figma.
 
-## Downloads and Usage
-To download, clone the repository or use the links below. Ligatures are the same for the original Material Symbols (e.g. person, more_horiz) and for the extra icons, prepend with an underscore (e.g. _folder_home for the folder_home icon). This is so that if the original font is updated with an icon of the same name, there will not be a collision. When the original font gets updated or new extended icons are added, codepoints for the extended glyphs will change so ligatures must be used (or the font not updated). See [Using on the Web](#using-on-the-web) for how to extract only the icons you need and convert to woff2.
+## Downloads and usage
+To download, clone the repository or use the links below. Ligatures are the same for the original Material Symbols (e.g. person, more_horiz) and for the extra icons, prepend with an underscore (e.g. _folder_home for the folder_home icon). This is so that if the original font is updated with an icon of the same name, there will not be a collision. When the original font gets updated or new extended icons are added, codepoints for the extended glyphs will change so ligatures must be used (or the font not updated). See [Using on the web](#using-on-the-web) for how to extract only the icons you need and convert to woff2.
 
 [Download TTF icon fonts (zip)](https://github.com/ottowolfenden/material-symbols-extended/raw/main/ttf-material-symbols-extended.zip)
 
@@ -534,12 +534,12 @@ The following is a list of icons currently planned.
 - magnet (U-shaped magnet)
 - ethernet (cross-section of ethernet connector)
 
-## Using on the Web
+## Using on the web
 
 To avoid loading huge font files when a page loads, you should [download the fonts](https://github.com/ottowolfenden/material-symbols-extended/raw/main/ttf-material-symbols-extended.zip) then create a font containing only the icons you need and compress to woff2. To do this, install [FontTools](https://github.com/fonttools/fonttools) with `pip install fonttools`, and run with the desired font variant and glyphs (the example command below creates a woff2 font in the 24px non-fill style with only the search, _json and _tex glyphs).
 
 ```bash
-fonttools subset material-symbols-extended-24px.ttf --glyphs=search,_json --flavor=woff2
+fonttools subset material-symbols-extended-24px.ttf --glyphs=search,_json,_tex --flavor=woff2
 ```
 
 You can use the CSS below for using the icons on the web (the paths below may need to be changed).
@@ -649,6 +649,11 @@ Icon {
 
 HoverHandler { id: hoverHandler }
 ```
+
+## Adding more icons
+
+To add your own icons, either submit a PR with your SVGs so I can run the scripts to add the icons, or clone the repository and run the scripts yourself. For the latter, you must be using Linux, WSL or macOS (scripts have only been tested on Linux). If so, install `fonttools` and `fontforge`, then create a directory in ./svgs with the name of the icon and add four SVGs called `FILL,opsz@0,24.svg`, `FILL,opsz@1,24.svg`, `FILL,opsz@0,48.svg` and `FILL,opsz@1,48.svg` to it. Finally, run `./src/generate.sh` and the SVGs should be added to the fonts in the ./fonts directory.
+
 
 ## Notice
 This repository contains modified verions of [Google Material Symbols](https://github.com/google/material-design-icons/) (which is licensed under the Apache License 2.0) and is not affiliated with Google. The original Material Symbols in the fonts are Copyright 2026 Google LLC.
