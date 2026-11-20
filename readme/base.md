@@ -36,10 +36,15 @@ The following is a list of icons currently planned.
 
 ## Using on the web
 
-To avoid loading huge font files when a page loads, you should [download the fonts](https://github.com/ottowolfenden/material-symbols-extended/raw/main/ttf-material-symbols-extended.zip) then create a font containing only the icons you need and compress to woff2. To do this, install [FontTools](https://github.com/fonttools/fonttools) with `pip install fonttools`, and run with the desired font variant and glyphs (the example command below creates a woff2 font in the 24px non-fill style with only the search, _json and _tex glyphs).
+To avoid loading huge font files when a page loads, you should [download the fonts](https://github.com/ottowolfenden/material-symbols-extended/raw/main/ttf-material-symbols-extended.zip) then create a font containing only the icons you need and compress to woff2. To do this, install [FontTools](https://github.com/fonttools/fonttools) with `pip install fonttools`, and run with the desired font variant and glyphs (the example command below creates a woff2 font in the 24px non-fill style with only the search, _json and _tex glyphs). You can see the available glyphs in the table above and in the icon name field when clicking on an icon in [Google Fonts](https://fonts.google.com/icons).
 
 ```bash
-fonttools subset material-symbols-extended-24px.ttf --glyphs=search,_json,_tex --flavor=woff2
+fonttools subset material-symbols-extended-24px.ttf \
+    --flavor=woff2 \
+    --text="abcdefghijklmnopqrstuvwxyz0123456789._ " \
+    --no-layout-closure \
+    --verbose \
+    --glyphs=search,_json,_tex
 ```
 
 You can use the CSS below for using the icons on the web (the paths below may need to be changed).
