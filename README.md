@@ -91,6 +91,24 @@ Below are the icons which have been added so far (original Material Symbols are 
     </tr>
     <tr>
         <td align="center">
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/file_dashed"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/file_dashed/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/file_dashed/white.svg" width="60px"></source
+                    ><img
+                ></picture
+            ></a>
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/file_dashed"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/file_dashed/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/file_dashed/white-fill.svg" width="60px"></source
+                    ><img
+                ></picture
+            ></a>
+            <br>
+            <span>&nbsp;&nbsp;_file_dashed&nbsp;&nbsp;</span>
+        </td>
+        <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/file_font"
                 ><picture
                     ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/file_font/black.svg" width="60px"></source
@@ -144,6 +162,8 @@ Below are the icons which have been added so far (original Material Symbols are 
             <br>
             <span>&nbsp;&nbsp;_file_shellscript&nbsp;&nbsp;</span>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/folder_desktop"
                 ><picture
@@ -162,8 +182,6 @@ Below are the icons which have been added so far (original Material Symbols are 
             <br>
             <span>&nbsp;&nbsp;_folder_desktop&nbsp;&nbsp;</span>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/folder_documents"
                 ><picture
@@ -218,6 +236,8 @@ Below are the icons which have been added so far (original Material Symbols are 
             <br>
             <span>&nbsp;&nbsp;_folder_git&nbsp;&nbsp;</span>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/folder_home"
                 ><picture
@@ -236,8 +256,6 @@ Below are the icons which have been added so far (original Material Symbols are 
             <br>
             <span>&nbsp;&nbsp;_folder_home&nbsp;&nbsp;</span>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/folder_lock"
                 ><picture
@@ -292,6 +310,8 @@ Below are the icons which have been added so far (original Material Symbols are 
             <br>
             <span>&nbsp;&nbsp;_folder_pictures&nbsp;&nbsp;</span>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/folder_videos"
                 ><picture
@@ -310,8 +330,6 @@ Below are the icons which have been added so far (original Material Symbols are 
             <br>
             <span>&nbsp;&nbsp;_folder_videos&nbsp;&nbsp;</span>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/hexadecimal"
                 ><picture
@@ -366,6 +384,8 @@ Below are the icons which have been added so far (original Material Symbols are 
             <br>
             <span>&nbsp;&nbsp;_json&nbsp;&nbsp;</span>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/language_history"
                 ><picture
@@ -384,8 +404,6 @@ Below are the icons which have been added so far (original Material Symbols are 
             <br>
             <span>&nbsp;&nbsp;_language_history&nbsp;&nbsp;</span>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/language_search"
                 ><picture
@@ -440,6 +458,8 @@ Below are the icons which have been added so far (original Material Symbols are 
             <br>
             <span>&nbsp;&nbsp;_presentation&nbsp;&nbsp;</span>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/spreadsheet"
                 ><picture
@@ -458,8 +478,6 @@ Below are the icons which have been added so far (original Material Symbols are 
             <br>
             <span>&nbsp;&nbsp;_spreadsheet&nbsp;&nbsp;</span>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/terminal_history"
                 ><picture
@@ -500,12 +518,12 @@ Below are the icons which have been added so far (original Material Symbols are 
 </table>
 
 The following is a list of icons currently planned.
-- file_empty (draft icon dashed like chat_dashed)
 - code_editor (combination of a window icon and code or edit icons)
 - path_posix_absolute ("/" in a box)
 - path_windows_absolute ("C:\\" in a box)
 - path_posix_relative ("./" in a box)
 - path_windows_relative (".\\" in a box)
+- folder_dashed (folder icon dashed like chat_dashed)
 - file_location (draft with location pin)
 - folder_location (folder with location pin)
 - view_tree (horizontal tree diagram)

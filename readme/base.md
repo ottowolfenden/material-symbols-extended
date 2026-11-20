@@ -18,12 +18,12 @@ Below are the icons which have been added so far (original Material Symbols are 
 </table>
 
 The following is a list of icons currently planned.
-- file_empty (draft icon dashed like chat_dashed)
 - code_editor (combination of a window icon and code or edit icons)
 - path_posix_absolute ("/" in a box)
 - path_windows_absolute ("C:\\" in a box)
 - path_posix_relative ("./" in a box)
 - path_windows_relative (".\\" in a box)
+- folder_dashed (folder icon dashed like chat_dashed)
 - file_location (draft with location pin)
 - folder_location (folder with location pin)
 - view_tree (horizontal tree diagram)
