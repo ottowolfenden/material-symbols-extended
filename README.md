@@ -349,6 +349,24 @@ Below are the icons which have been added so far (original Material Symbols are 
             <span>&nbsp;&nbsp;_folder_videos&nbsp;&nbsp;</span>
         </td>
         <td align="center">
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/hard_disk_full"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/hard_disk_full/black.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/hard_disk_full/white.svg" width="60px"></source
+                    ><img
+                ></picture
+            ></a>
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/hard_disk_full"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/hard_disk_full/black-fill.svg" width="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/hard_disk_full/white-fill.svg" width="60px"></source
+                    ><img
+                ></picture
+            ></a>
+            <br>
+            <span>&nbsp;&nbsp;_hard_disk_full&nbsp;&nbsp;</span>
+        </td>
+        <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/hexadecimal"
                 ><picture
                     ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/hexadecimal/black.svg" width="60px"></source
@@ -366,6 +384,8 @@ Below are the icons which have been added so far (original Material Symbols are 
             <br>
             <span>&nbsp;&nbsp;_hexadecimal&nbsp;&nbsp;</span>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/js_box"
                 ><picture
@@ -384,8 +404,6 @@ Below are the icons which have been added so far (original Material Symbols are 
             <br>
             <span>&nbsp;&nbsp;_js_box&nbsp;&nbsp;</span>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/json"
                 ><picture
@@ -440,6 +458,8 @@ Below are the icons which have been added so far (original Material Symbols are 
             <br>
             <span>&nbsp;&nbsp;_language_search&nbsp;&nbsp;</span>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/open_in_terminal"
                 ><picture
@@ -458,8 +478,6 @@ Below are the icons which have been added so far (original Material Symbols are 
             <br>
             <span>&nbsp;&nbsp;_open_in_terminal&nbsp;&nbsp;</span>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/presentation"
                 ><picture
@@ -514,6 +532,8 @@ Below are the icons which have been added so far (original Material Symbols are 
             <br>
             <span>&nbsp;&nbsp;_terminal_history&nbsp;&nbsp;</span>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/tex"
                 ><picture
@@ -532,8 +552,6 @@ Below are the icons which have been added so far (original Material Symbols are 
             <br>
             <span>&nbsp;&nbsp;_tex&nbsp;&nbsp;</span>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/window_code"
                 ><picture
@@ -564,7 +582,6 @@ The following is a list of icons currently planned.
 - folder_location (folder with location pin)
 - view_tree (horizontal tree diagram)
 - file_diff (draft icon with plus and minus)
-- hard_disk_full (hard_disk icon with exclamation mark)
 - binary (zeros and ones in a grid, or just "bin" in a box)
 - image_vector (image with nodes and path, similar to polyline icon)
 - magnet (U-shaped magnet)
