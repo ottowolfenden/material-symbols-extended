@@ -33,6 +33,15 @@ inside=false
 dirs=(readme/svgs/*)
 cols=4
 
+declare -A codepoints
+eval "$(
+    jq -r '
+        .codepoints
+        | to_entries[]
+        | @sh "codepoints[\(.key)]=\(.value)"
+    ' data.json
+)"
+
 while IFS= read -r line; do
     [[ "$line" == '<table id="icons"'* ]] && {
         inside=true
@@ -43,7 +52,12 @@ while IFS= read -r line; do
                 dir=${dirs[i+j]:-}
                  [[ -n "$dir" ]] && {
                     icon=$(realpath --relative-to readme/svgs "$dir")
-                    printf "%s\n" "${template//"%ICON"/"$icon"}"
+                    codepoint="${codepoints["$icon"]}"
+                    codepoint="${codepoint//"0x"/"U+"}"
+                    newtemplate="${template//"%ICON"/"$icon"}"
+                    newtemplate="${newtemplate//"%CODEPOINT"/"$codepoint"}"
+                    printf "%s\n" "$newtemplate"
+                    newtemplate="$template"
                 }
             done
             printf '    </tr>\n'
