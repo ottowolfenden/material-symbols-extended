@@ -18,10 +18,6 @@ Below are the icons which have been added so far (original Material Symbols are 
 </table>
 
 The following is a list of icons currently planned.
-- path_posix_absolute ("/" in a box)
-- path_windows_absolute ("C:\\" in a box)
-- path_posix_relative ("./" in a box)
-- path_windows_relative (".\\" in a box)
 - file_location (draft with location pin)
 - folder_location (folder with location pin)
 - view_tree (horizontal tree diagram)
@@ -30,6 +26,8 @@ The following is a list of icons currently planned.
 - image_vector (image with nodes and path, similar to polyline icon)
 - magnet (U-shaped magnet)
 - ethernet (cross-section of ethernet connector)
+- path_windows_abs_copy ("C:\\" in a box)
+- path_windows_rel_copy (".\\" in a box)
 
 ## Using on the web
 

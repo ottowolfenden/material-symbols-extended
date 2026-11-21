@@ -554,6 +554,48 @@ Below are the icons which have been added so far (original Material Symbols are 
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
         <td align="center">
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/path_posix_abs_copy"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/path_posix_abs_copy/black.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/path_posix_abs_copy/white.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/path_posix_abs_copy/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/path_posix_abs_copy"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/path_posix_abs_copy/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/path_posix_abs_copy/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/path_posix_abs_copy/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
+            <br>
+            <div>_path_posix_abs_copy</div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
+                >U+10FFDF</code
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </td>
+        <td align="center">
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/path_posix_rel_copy"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/path_posix_rel_copy/black.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/path_posix_rel_copy/white.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/path_posix_rel_copy/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/path_posix_rel_copy"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/path_posix_rel_copy/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/path_posix_rel_copy/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/path_posix_rel_copy/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
+            <br>
+            <div>_path_posix_rel_copy</div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
+                >U+10FFDE</code
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </td>
+        <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/presentation"
                 ><picture
                     ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/presentation/black.svg" width="60px" height="60px"></source
@@ -574,6 +616,8 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFE4</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/spreadsheet"
                 ><picture
@@ -616,8 +660,6 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFE2</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/tex"
                 ><picture
@@ -664,10 +706,6 @@ Below are the icons which have been added so far (original Material Symbols are 
 </table>
 
 The following is a list of icons currently planned.
-- path_posix_absolute ("/" in a box)
-- path_windows_absolute ("C:\\" in a box)
-- path_posix_relative ("./" in a box)
-- path_windows_relative (".\\" in a box)
 - file_location (draft with location pin)
 - folder_location (folder with location pin)
 - view_tree (horizontal tree diagram)
@@ -676,6 +714,8 @@ The following is a list of icons currently planned.
 - image_vector (image with nodes and path, similar to polyline icon)
 - magnet (U-shaped magnet)
 - ethernet (cross-section of ethernet connector)
+- path_windows_abs_copy ("C:\\" in a box)
+- path_windows_rel_copy (".\\" in a box)
 
 ## Using on the web
 

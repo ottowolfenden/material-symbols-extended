@@ -25,6 +25,8 @@
         "language_history": "0x10FFE7",
         "language_search": "0x10FFE6",
         "open_in_terminal": "0x10FFE5",
+        "path_posix_abs_copy": "0x10FFDF",
+        "path_posix_rel_copy": "0x10FFDE",
         "presentation": "0x10FFE4",
         "spreadsheet": "0x10FFE3",
         "terminal_history": "0x10FFE2",
