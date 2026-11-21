@@ -26,8 +26,6 @@ The following is a list of icons currently planned.
 - image_vector (image with nodes and path, similar to polyline icon)
 - magnet (U-shaped magnet)
 - ethernet (cross-section of ethernet connector)
-- path_windows_abs_copy ("C:\\" in a box)
-- path_windows_rel_copy (".\\" in a box)
 
 ## Using on the web
 
