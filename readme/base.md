@@ -21,7 +21,6 @@ The following is a list of icons currently planned.
 - file_location (draft with location pin)
 - folder_location (folder with location pin)
 - view_tree (horizontal tree diagram)
-- file_diff (draft icon with plus and minus)
 - binary (zeros and ones in a grid, or just "bin" in a box)
 - image_vector (image with nodes and path, similar to polyline icon)
 - magnet (U-shaped magnet)
