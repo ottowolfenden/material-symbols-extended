@@ -747,6 +747,27 @@ Below are the icons which have been added so far (original Material Symbols are 
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
         <td align="center">
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/view_tree"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/view_tree/black.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/view_tree/white.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/view_tree/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/view_tree"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/view_tree/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/view_tree/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/view_tree/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
+            <br>
+            <div>_view_tree</div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
+                >U+10FFDA</code
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </td>
+        <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/window_code"
                 ><picture
                     ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/window_code/black.svg" width="60px" height="60px"></source
