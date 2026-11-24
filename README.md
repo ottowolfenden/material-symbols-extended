@@ -447,6 +447,69 @@ Below are the icons which have been added so far (original Material Symbols are 
     </tr>
     <tr>
         <td align="center">
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/git_branch_changes"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/git_branch_changes/black.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/git_branch_changes/white.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/git_branch_changes/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/git_branch_changes"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/git_branch_changes/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/git_branch_changes/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/git_branch_changes/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
+            <br>
+            <div>_git_branch_changes</div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
+                >U+10FFD8</code
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </td>
+        <td align="center">
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/git_branch_conflicts"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/git_branch_conflicts/black.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/git_branch_conflicts/white.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/git_branch_conflicts/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/git_branch_conflicts"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/git_branch_conflicts/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/git_branch_conflicts/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/git_branch_conflicts/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
+            <br>
+            <div>_git_branch_conflicts</div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
+                >U+10FFD7</code
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </td>
+        <td align="center">
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/git_branch_staged"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/git_branch_staged/black.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/git_branch_staged/white.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/git_branch_staged/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/git_branch_staged"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/git_branch_staged/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/git_branch_staged/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/git_branch_staged/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
+            <br>
+            <div>_git_branch_staged</div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
+                >U+10FFD6</code
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </td>
+        <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/hard_disk_full"
                 ><picture
                     ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/hard_disk_full/black.svg" width="60px" height="60px"></source
@@ -467,6 +530,8 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFEB</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/hexadecimal"
                 ><picture
@@ -530,8 +595,6 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFE8</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/language_history"
                 ><picture
@@ -553,6 +616,8 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFE7</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/language_search"
                 ><picture
@@ -616,8 +681,6 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFDF</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/path_posix_rel_copy"
                 ><picture
@@ -639,6 +702,8 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFDE</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/path_win_abs_copy"
                 ><picture
@@ -702,8 +767,6 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFE4</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/spreadsheet"
                 ><picture
@@ -725,6 +788,8 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFE3</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/terminal_history"
                 ><picture
@@ -788,8 +853,6 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFDA</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/window_code"
                 ><picture
@@ -817,9 +880,6 @@ Below are the icons which have been added so far (original Material Symbols are 
 ## Planned Icons
 - file_symlink (file icon with turn right arrow from bottom left corner)
 - folder_symlink (file icon with turn right arrow from bottom left corner)
-- git_branch_changes (git_branch with asterix)
-- git_branch_staged (git_branch with plus)
-- git_branch_conflicts (git_branch with exclamation mark)
 - binary (zeros and ones in a grid, or just "bin" in a box)
 - image_vector (image with nodes and path, similar to polyline icon)
 - magnet (U-shaped magnet)
