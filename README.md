@@ -12,8 +12,9 @@ To download, clone the repository or use the links below. Ligatures are supporte
 [Download SVG icons (zip)](https://github.com/ottowolfenden/material-symbols-extended/raw/main/svg-material-symbols-extended.zip)
 
 ## Icons
-Below are the icons which have been added so far (original Material Symbols are also included in the font and can be browsed at [Google Fonts](https://fonts.google.com/icons)). The icons below are the non-fill and fill variants at optical size 24px (displayed at 60px width), but there are also non-fill and fill variants at optical size 48px for every icon.
-
+Below are the icons which have been added so far (original Material Symbols are also included in the font and can be browsed at [Google Fonts](https://fonts.google.com/icons)). The icons below are the non-fill and fill variants at optical size 24px (displayed at 60px width), but there are also non-fill and fill variants at optical size 48px for every icon. The icon table heading can be clicked to expand/collapse it, and clicking on an icon opens its folder with SVGs for all variants.
+<details open>
+<summary><h3>Icon table</h3></summary>
 <table id="icons" align="center">
     <tr>
         <td align="center">
@@ -876,6 +877,7 @@ Below are the icons which have been added so far (original Material Symbols are 
         </td>
     </tr>
 </table>
+</details>
 
 ### Planned Icons
 The following is a list of icons planned to be added.
