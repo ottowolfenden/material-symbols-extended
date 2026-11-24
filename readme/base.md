@@ -17,14 +17,12 @@ Below are the icons which have been added so far (original Material Symbols are 
 <table id="icons" align="center">
 </table>
 
-The following is a list of icons currently planned.
+## Planned Icons
 - file_symlink (file icon with turn right arrow from bottom left corner)
 - folder_symlink (file icon with turn right arrow from bottom left corner)
-- git_branch (modified version of graph_8 icon)
 - git_branch_changes (git_branch with asterix)
 - git_branch_staged (git_branch with plus)
 - git_branch_conflicts (git_branch with exclamation mark)
-- folder_git (revised version of folder_git matching git_branch icon)
 - binary (zeros and ones in a grid, or just "bin" in a box)
 - image_vector (image with nodes and path, similar to polyline icon)
 - magnet (U-shaped magnet)
