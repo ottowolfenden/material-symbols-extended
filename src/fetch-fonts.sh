@@ -38,12 +38,10 @@ for p in "${properties[@]}"; do
             isnew() { [[ "$oldver" == "none" ]]; }
             isupdate() { [[ "$oldver" != "$newver" && "$oldver" != "none" ]]; }
 
-            (isnew || isupdate) && {
+            { isnew || isupdate; } && {
                 cp "$tmpdir/$p.ttf" "$outdir" && {
-                    isnew &&
-                        iprintf 1 'saved %s %s\n' "$p" "$newver"
-                    isupdate &&
-                        iprintf 1 'saved %s (%s -> %s)\n' "$p" "$oldver" "$newver"
+                    isnew && iprintf 1 'saved %s %s\n' "$p" "$newver"
+                    isupdate && iprintf 1 'saved %s (%s -> %s)\n' "$p" "$oldver" "$newver"
                 }
                 touch "$updated"
             } || iprintf 1 'discarded %s as %s already exists\n' "$p" "$newver"

@@ -15,7 +15,7 @@ for arg in "$@"; do
 done
 
 ./src/unzip.sh && unzipped=true
-(! $unzipped && $mustunzip) && {
+{ ! $unzipped && $mustunzip; } && {
     printf "exiting without generating as no zip found\n"
     exit 0
 }
