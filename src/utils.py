@@ -51,6 +51,7 @@ def addLigature(font, name):
                 ligatures = sub.ExtSubTable.ligatures
                 for first, entries in new.ligatures.items():
                     ligatures.setdefault(first, []).extend(entries)
+                    ligatures[first].sort(key=lambda l: len(l.Component), reverse=True)
                 return
 
 
