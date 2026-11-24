@@ -20,10 +20,11 @@ done
     exit 0
 }
 $nofetch && printf 'skipping fetch\n' || {
-    ./src/fetch-fonts.sh "$($mustupdate && echo --mustupdate)" || ($mustupdate && ! $unzipped) && {
+    ./src/fetch-fonts.sh "$($mustupdate && echo --mustupdate)"
+    if (( $? != 0)) && ! $mustupdate && ! $unzipped; then
         printf "exiting without generating as no updates found\n"
         exit 0
-    }
+    fi
 }
 ./src/generate.sh &&
 ./src/package.sh &&
