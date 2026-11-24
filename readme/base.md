@@ -27,6 +27,11 @@ The following is a list of icons planned to be added.
 - ethernet (cross-section of ethernet connector)
 - file_location (draft with location pin)
 - folder_location (folder with location pin)
+- git_branch_create (plus icon with small branch icon so as not to conflict with git_branch_staged)
+- git_branch_delete (bin icon with small branch icon for consistency with git_branch_create)
+- run_debug (play arrow shifted to top left with small bug icon)
+- folder_git_clone
+- search_fuzzy
 
 ## Using on the web
 
