@@ -21,6 +21,15 @@ Below are the icons which have been added so far (original Material Symbols are 
 
 ### Planned Icons
 The following is a list of icons planned to be added.
+- globbing (symbol with asterisk, e.g. ab\* or magnifying glass with asterisk)
+- file_size icons (text icons or could be text inside memory_alt icon)
+    - file_size_zero (0B)
+    - file_size_byte (B)
+    - file_size_kilobyte (KB)
+    - file_size_megabyte (MB)
+    - file_size_gigabyte (GB)
+    - file_size_terabyte (TB)
+    - file_size_petabyte (PB)
 - binary (zeros and ones in a grid, or just "bin" in a box)
 - image_vector (image with nodes and path, similar to polyline icon)
 - magnet (U-shaped magnet)
