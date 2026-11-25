@@ -28,6 +28,7 @@
         "git_branch_changes": "0x10FFD8",
         "git_branch_conflicts": "0x10FFD7",
         "git_branch_staged": "0x10FFD6",
+        "globbing": "0x10FFD0",
         "hard_disk_full": "0x10FFEB",
         "hexadecimal": "0x10FFEA",
         "js_box": "0x10FFE9",

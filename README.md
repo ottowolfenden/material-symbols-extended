@@ -620,6 +620,27 @@ Below are the icons which have been added so far (original Material Symbols are 
     </tr>
     <tr>
         <td align="center">
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/globbing"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/globbing/black.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/globbing/white.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/globbing/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/globbing"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/globbing/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/globbing/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/globbing/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
+            <br>
+            <div><strong>_globbing</strong></div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
+                >U+10FFD0</code
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </td>
+        <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/hard_disk_full"
                 ><picture
                     ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/hard_disk_full/black.svg" width="60px" height="60px"></source
@@ -682,6 +703,8 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFE9</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/json"
                 ><picture
@@ -703,8 +726,6 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFE8</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/language_history"
                 ><picture
@@ -768,6 +789,8 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFE5</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/path_posix_abs_copy"
                 ><picture
@@ -789,8 +812,6 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFDF</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/path_posix_rel_copy"
                 ><picture
@@ -854,6 +875,8 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFDC</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/presentation"
                 ><picture
@@ -875,8 +898,6 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFE4</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/spreadsheet"
                 ><picture
@@ -940,6 +961,8 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFE1</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/view_tree"
                 ><picture
@@ -961,8 +984,6 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFDA</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/window_code"
                 ><picture
@@ -993,17 +1014,16 @@ Below are the icons which have been added so far (original Material Symbols are 
 <summary><h3>Planned Icons</h3></summary>
 
 The following is a list of icons planned to be added, in a rough priority order.
-- **_globbing** (symbol with asterisk, e.g. "ab\*" or "/**/" or a magnifying glass with asterisk)
-- **_file_size**\* icons (text icons or could be text inside memory_alt icon, could have '+' suffix)
-    - **_file_size_zero** (0B)
-    - **_file_size_byte** (B)
-    - **_file_size_kilobyte** (KB)
-    - **_file_size_megabyte** (MB)
-    - **_file_size_gigabyte** (GB)
-    - **_file_size_terabyte** (TB)
-    - **_file_size_petabyte** (PB)
+- **_rename** (text cursor over rectangle)
+- **_data_size**\* icons (text icons or could be text inside memory_alt icon, could have '+' suffix)
+    - **_data_size_zero** (0B)
+    - **_data_size_byte** (B)
+    - **_data_size_kilobyte** (KB)
+    - **_data_size_megabyte** (MB)
+    - **_data_size_gigabyte** (GB)
+    - **_data_size_terabyte** (TB)
+    - **_data_size_petabyte** (PB)
 - **_terminal_lock** (terminal with small lock icon)
-- **_rename** (similar to codicon rename)
 - **_run_debug** (play arrow shifted to top left with small bug icon)
 - **_keyboard_record** (keyboard icon with record circle for recording a keyboard shortcut)
 - **_image_vector** (image with nodes and path, similar to polyline icon)
