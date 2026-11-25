@@ -28,12 +28,13 @@ for dir in readme/svgs/*; do
     mv "$dir"/white-FILL,opsz@1,24.svg "$dir"/white-fill.svg
 done
 
-template=$(<"readme/icon-td.html")
-inside=false
-dirs=(readme/svgs/*)
-cols=4
-
 declare -A codepoints
+template=$(<"readme/icon-td.html")
+icons=()
+cols=4
+inside=false
+
+mapfile -t icons < <(jq -r '.order[]' data.json)
 eval "$(
     jq -r '
         .codepoints
@@ -46,12 +47,11 @@ while IFS= read -r line; do
     [[ "$line" == '<table id="icons"'* ]] && {
         inside=true
         echo "$line"
-        for ((i=0; i<${#dirs[@]}; i+=cols)); do
+        for ((i=0; i<${#icons[@]}; i+=cols)); do
             printf '    <tr>\n'
             for ((j=0; j<cols; j++)); do
-                dir=${dirs[i+j]:-}
-                 [[ -n "$dir" ]] && {
-                    icon=$(realpath --relative-to readme/svgs "$dir")
+                icon=${icons[i+j]:-}
+                 [[ -n "$icon" ]] && {
                     codepoint="${codepoints["$icon"]}"
                     codepoint="${codepoint//"0x"/"U+"}"
                     newtemplate="${template//"%ICON"/"$icon"}"
