@@ -21,8 +21,6 @@ Below are the icons which have been added so far (original Material Symbols are 
 
 ### Planned Icons
 The following is a list of icons planned to be added.
-- file_symlink (file icon with turn right arrow from bottom left corner)
-- folder_symlink (file icon with turn right arrow from bottom left corner)
 - binary (zeros and ones in a grid, or just "bin" in a box)
 - image_vector (image with nodes and path, similar to polyline icon)
 - magnet (U-shaped magnet)

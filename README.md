@@ -211,6 +211,48 @@ Below are the icons which have been added so far (original Material Symbols are 
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
         <td align="center">
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/file_symlink"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/file_symlink/black.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/file_symlink/white.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/file_symlink/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/file_symlink"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/file_symlink/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/file_symlink/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/file_symlink/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
+            <br>
+            <div>_file_symlink</div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
+                >U+10FFD5</code
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </td>
+        <td align="center">
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/file_symlink_alt"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/file_symlink_alt/black.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/file_symlink_alt/white.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/file_symlink_alt/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/file_symlink_alt"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/file_symlink_alt/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/file_symlink_alt/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/file_symlink_alt/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
+            <br>
+            <div>_file_symlink_alt</div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
+                >U+10FFD4</code
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </td>
+        <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/folder_dashed"
                 ><picture
                     ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/folder_dashed/black.svg" width="60px" height="60px"></source
@@ -231,6 +273,8 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFF5</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/folder_desktop"
                 ><picture
@@ -273,8 +317,6 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFF3</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/folder_downloads"
                 ><picture
@@ -317,6 +359,8 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFF1</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/folder_home"
                 ><picture
@@ -359,8 +403,6 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFEF</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/folder_music"
                 ><picture
@@ -401,6 +443,50 @@ Below are the icons which have been added so far (original Material Symbols are 
             <div>_folder_pictures</div>
             <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
                 >U+10FFED</code
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/folder_symlink"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/folder_symlink/black.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/folder_symlink/white.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/folder_symlink/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/folder_symlink"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/folder_symlink/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/folder_symlink/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/folder_symlink/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
+            <br>
+            <div>_folder_symlink</div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
+                >U+10FFD3</code
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </td>
+        <td align="center">
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/folder_symlink_alt"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/folder_symlink_alt/black.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/folder_symlink_alt/white.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/folder_symlink_alt/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/folder_symlink_alt"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/folder_symlink_alt/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/folder_symlink_alt/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/folder_symlink_alt/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
+            <br>
+            <div>_folder_symlink_alt</div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
+                >U+10FFD2</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
         <td align="center">
@@ -881,8 +967,6 @@ Below are the icons which have been added so far (original Material Symbols are 
 
 ### Planned Icons
 The following is a list of icons planned to be added.
-- file_symlink (file icon with turn right arrow from bottom left corner)
-- folder_symlink (file icon with turn right arrow from bottom left corner)
 - binary (zeros and ones in a grid, or just "bin" in a box)
 - image_vector (image with nodes and path, similar to polyline icon)
 - magnet (U-shaped magnet)
