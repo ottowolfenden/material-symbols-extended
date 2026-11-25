@@ -23,6 +23,7 @@
         "folder_symlink": "0x10FFD3",
         "folder_symlink_alt": "0x10FFD2",
         "folder_videos": "0x10FFEC",
+        "fuzzy_search": "0x10FFD1",
         "git_branch": "0x10FFD9",
         "git_branch_changes": "0x10FFD8",
         "git_branch_conflicts": "0x10FFD7",

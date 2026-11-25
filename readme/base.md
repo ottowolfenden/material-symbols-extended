@@ -31,7 +31,6 @@ The following is a list of icons planned to be added.
 - git_branch_delete (bin icon with small branch icon for consistency with git_branch_create)
 - run_debug (play arrow shifted to top left with small bug icon)
 - folder_git_clone
-- search_fuzzy
 - keyboard_record (keyboard icon with record circle for recording a keyboard shortcut)
 - rename (similar to codicon rename)
 - terminal_lock (terminal with small lock icon)
