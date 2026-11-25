@@ -899,6 +899,329 @@ Below are the icons which have been added so far (original Material Symbols are 
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
         <td align="center">
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_byte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_byte/black.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_byte/white.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_byte/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_byte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_byte/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_byte/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_byte/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
+            <br>
+            <div><strong>_size_data_byte</strong></div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
+                >U+10FFCF</code
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </td>
+        <td align="center">
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_byte_iec"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_byte_iec/black.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_byte_iec/white.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_byte_iec/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_byte_iec"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_byte_iec/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_byte_iec/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_byte_iec/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
+            <br>
+            <div><strong>_size_data_byte_iec</strong></div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
+                >U+10FFCE</code
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </td>
+        <td align="center">
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_exabyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_exabyte/black.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_exabyte/white.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_exabyte/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_exabyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_exabyte/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_exabyte/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_exabyte/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
+            <br>
+            <div><strong>_size_data_exabyte</strong></div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
+                >U+10FFCD</code
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_exbibyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_exbibyte/black.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_exbibyte/white.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_exbibyte/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_exbibyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_exbibyte/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_exbibyte/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_exbibyte/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
+            <br>
+            <div><strong>_size_data_exbibyte</strong></div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
+                >U+10FFCC</code
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </td>
+        <td align="center">
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_gibibyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_gibibyte/black.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_gibibyte/white.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_gibibyte/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_gibibyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_gibibyte/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_gibibyte/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_gibibyte/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
+            <br>
+            <div><strong>_size_data_gibibyte</strong></div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
+                >U+10FFCB</code
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </td>
+        <td align="center">
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_gigabyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_gigabyte/black.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_gigabyte/white.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_gigabyte/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_gigabyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_gigabyte/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_gigabyte/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_gigabyte/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
+            <br>
+            <div><strong>_size_data_gigabyte</strong></div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
+                >U+10FFCA</code
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </td>
+        <td align="center">
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_kibibyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_kibibyte/black.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_kibibyte/white.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_kibibyte/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_kibibyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_kibibyte/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_kibibyte/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_kibibyte/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
+            <br>
+            <div><strong>_size_data_kibibyte</strong></div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
+                >U+10FFC9</code
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_kilobyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_kilobyte/black.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_kilobyte/white.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_kilobyte/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_kilobyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_kilobyte/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_kilobyte/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_kilobyte/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
+            <br>
+            <div><strong>_size_data_kilobyte</strong></div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
+                >U+10FFC8</code
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </td>
+        <td align="center">
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_mebibyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_mebibyte/black.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_mebibyte/white.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_mebibyte/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_mebibyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_mebibyte/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_mebibyte/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_mebibyte/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
+            <br>
+            <div><strong>_size_data_mebibyte</strong></div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
+                >U+10FFC7</code
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </td>
+        <td align="center">
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_megabyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_megabyte/black.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_megabyte/white.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_megabyte/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_megabyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_megabyte/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_megabyte/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_megabyte/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
+            <br>
+            <div><strong>_size_data_megabyte</strong></div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
+                >U+10FFC6</code
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </td>
+        <td align="center">
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_pebibyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_pebibyte/black.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_pebibyte/white.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_pebibyte/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_pebibyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_pebibyte/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_pebibyte/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_pebibyte/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
+            <br>
+            <div><strong>_size_data_pebibyte</strong></div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
+                >U+10FFC5</code
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_petabyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_petabyte/black.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_petabyte/white.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_petabyte/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_petabyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_petabyte/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_petabyte/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_petabyte/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
+            <br>
+            <div><strong>_size_data_petabyte</strong></div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
+                >U+10FFC4</code
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </td>
+        <td align="center">
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_tebibyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_tebibyte/black.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_tebibyte/white.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_tebibyte/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_tebibyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_tebibyte/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_tebibyte/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_tebibyte/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
+            <br>
+            <div><strong>_size_data_tebibyte</strong></div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
+                >U+10FFC3</code
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </td>
+        <td align="center">
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_terabyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_terabyte/black.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_terabyte/white.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_terabyte/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_terabyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_terabyte/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_terabyte/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_terabyte/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
+            <br>
+            <div><strong>_size_data_terabyte</strong></div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
+                >U+10FFC2</code
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </td>
+        <td align="center">
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_zero"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_zero/black.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_zero/white.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_zero/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_zero"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_zero/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_zero/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_zero/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
+            <br>
+            <div><strong>_size_data_zero</strong></div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
+                >U+10FFC1</code
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/spreadsheet"
                 ><picture
                     ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/spreadsheet/black.svg" width="60px" height="60px"></source
@@ -961,8 +1284,6 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFE1</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/view_tree"
                 ><picture
@@ -984,6 +1305,8 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFDA</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/window_code"
                 ><picture
@@ -1015,14 +1338,6 @@ Below are the icons which have been added so far (original Material Symbols are 
 
 The following is a list of icons planned to be added, in a rough priority order.
 - **_rename** (text cursor over rectangle)
-- **_data_size**\* icons (text icons or could be text inside memory_alt icon, could have '+' suffix)
-    - **_data_size_zero** (0B)
-    - **_data_size_byte** (B)
-    - **_data_size_kilobyte** (KB)
-    - **_data_size_megabyte** (MB)
-    - **_data_size_gigabyte** (GB)
-    - **_data_size_terabyte** (TB)
-    - **_data_size_petabyte** (PB)
 - **_terminal_lock** (terminal with small lock icon)
 - **_run_debug** (play arrow shifted to top left with small bug icon)
 - **_keyboard_record** (keyboard icon with record circle for recording a keyboard shortcut)

@@ -25,14 +25,6 @@ Below are the icons which have been added so far (original Material Symbols are 
 
 The following is a list of icons planned to be added, in a rough priority order.
 - **_rename** (text cursor over rectangle)
-- **_data_size**\* icons (text icons or could be text inside memory_alt icon, could have '+' suffix)
-    - **_data_size_zero** (0B)
-    - **_data_size_byte** (B)
-    - **_data_size_kilobyte** (KB)
-    - **_data_size_megabyte** (MB)
-    - **_data_size_gigabyte** (GB)
-    - **_data_size_terabyte** (TB)
-    - **_data_size_petabyte** (PB)
 - **_terminal_lock** (terminal with small lock icon)
 - **_run_debug** (play arrow shifted to top left with small bug icon)
 - **_keyboard_record** (keyboard icon with record circle for recording a keyboard shortcut)
