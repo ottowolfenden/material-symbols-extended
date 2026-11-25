@@ -34,7 +34,7 @@ icons=()
 cols=4
 inside=false
 
-mapfile -t icons < <(jq -r '.order[]' data.json)
+mapfile -t icons < <(jq -r '.displayOrder[]' data.json)
 eval "$(
     jq -r '
         .codepoints

@@ -62,21 +62,7 @@
         "view_tree": "0x10FFDA",
         "window_code": "0x10FFE0"
     },
-    "glyphNames": {
-        ".": "period",
-        "0": "digit_zero",
-        "1": "digit_one",
-        "2": "digit_two",
-        "3": "digit_three",
-        "4": "digit_four",
-        "5": "digit_five",
-        "6": "digit_six",
-        "7": "digit_seven",
-        "8": "digit_eight",
-        "9": "digit_nine",
-        "_": "underscore"
-    },
-    "order": [
+    "displayOrder": [
         "json",
         "globbing",
         "book_code",
@@ -139,6 +125,20 @@
         "size_data_pebibyte",
         "size_data_exbibyte"
     ],
+    "glyphNames": {
+        ".": "period",
+        "0": "digit_zero",
+        "1": "digit_one",
+        "2": "digit_two",
+        "3": "digit_three",
+        "4": "digit_four",
+        "5": "digit_five",
+        "6": "digit_six",
+        "7": "digit_seven",
+        "8": "digit_eight",
+        "9": "digit_nine",
+        "_": "underscore"
+    },
     "properties": {
         "FILL,opsz@0,24": {
             "displayName": "Material Symbols Extended 24px",

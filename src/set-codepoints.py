@@ -30,7 +30,7 @@ for icon in newIcons:
 
 assert len(set(codepoints.values())) == len(codepoints.values()), "duplicate codepoints"
 
-data["order"] += [s for s in names if s not in data["order"]]
+data["displayOrder"] += [s for s in names if s not in data["displayOrder"]]
 
 with open("data.json", "w") as f:
     json.dump(data, f, indent=4, sort_keys=True)
