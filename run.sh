@@ -21,7 +21,7 @@ done
 }
 $nofetch && printf 'skipping fetch\n' || {
     ./src/fetch-fonts.sh "$($mustupdate && echo --mustupdate)"
-    { (( $? !=0 )) && ! $mustupdate && ! $unzipped; } && {
+    { (( $? != 0 )) && $mustupdate && ! $unzipped; } && {
         printf "exiting without generating as no updates found\n"
         exit 0
     }
