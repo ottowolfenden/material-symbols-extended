@@ -1366,6 +1366,30 @@ Below are the icons which have been added so far (original Material Symbols are 
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
     </tr>
+    <tr>
+        <td align="center">
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_exbibyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_exbibyte/black.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_exbibyte/white.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_exbibyte/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            &nbsp;
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_exbibyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_exbibyte/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_exbibyte/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_exbibyte/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
+            <br>
+            <div><strong>_size_data_exbibyte</strong></div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
+                >U+10FFCC</code
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </td>
+    </tr>
 </table>
 </details>
 
