@@ -14,7 +14,7 @@ To download, clone the repository or use the links below. Ligatures are supporte
 ## Icons
 Below are the icons which have been added so far (original Material Symbols are also included in the font and can be browsed at [Google Fonts](https://fonts.google.com/icons)). The icons below are the non-fill and fill variants at optical size 24px (displayed at 60px width), but there are also non-fill and fill variants at optical size 48px for every icon. The icon table heading can be clicked to expand/collapse it, and clicking on an icon opens its folder with SVGs for all variants.
 <details open>
-<summary><h3>Icon table</h3></summary>
+<summary><h3>Previews</h3></summary>
 <table id="icons">
     <tr>
         <td align="center">
@@ -1457,6 +1457,7 @@ Below are the icons which have been added so far (original Material Symbols are 
         </td>
     </tr>
 </table>
+<table><tr><td>Browse the 2000+ original icons at <a href="https://fonts.google.com/icons">Google Fonts</a></td></tr></table>
 </details>
 
 
