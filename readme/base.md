@@ -25,7 +25,6 @@ Below are the icons which have been added so far (original Material Symbols are 
 
 The following is a list of icons planned to be added, in a rough priority order.
 - **_rename** (text cursor over rectangle)
-- **_terminal_lock** (terminal with small lock icon)
 - **_run_debug** (play arrow shifted to top left with small bug icon)
 - **_keyboard_record** (keyboard icon with record circle for recording a keyboard shortcut)
 - **_image_vector** (image with nodes and path, similar to polyline icon)
