@@ -61,6 +61,7 @@
         "terminal_history": "0x10FFE2",
         "terminal_lock": "0x10FFC0",
         "tex": "0x10FFE1",
+        "vector": "0x10FFBE",
         "view_tree": "0x10FFDA",
         "window_code": "0x10FFE0"
     },
@@ -91,6 +92,7 @@
         "folder_dashed",
         "file_diff",
         "run_debug",
+        "vector",
         "file_3d",
         "file_code",
         "file_cursor",

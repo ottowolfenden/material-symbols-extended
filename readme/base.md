@@ -26,7 +26,7 @@ Below are the icons which have been added so far (original Material Symbols are 
 The following is a list of icons planned to be added, in a rough priority order.
 - **_rename** (text cursor over rectangle)
 - **_keyboard_record** (keyboard icon with record circle for recording a keyboard shortcut)
-- **_image_vector** (image with nodes and path, similar to polyline icon)
+- **_vector_box** (_vector in a box)
 - **_magnet** (U-shaped magnet)
 - **_binary** (zeros and ones in a grid, or just text like "bin" or "0b" in a box)
 - **_ethernet** (cross-section of ethernet connector)
