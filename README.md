@@ -48,6 +48,14 @@ Below are the icons which have been added so far (original Material Symbols are 
                     ><img src="readme/svgs/globbing/black.svg"" width="60px" height="60px"
                 ></picture
             ></a>
+            &nbsp;
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/globbing"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/globbing/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/globbing/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/globbing/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
             <br>
             <div><strong>_globbing</strong></div>
             <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
@@ -198,6 +206,14 @@ Below are the icons which have been added so far (original Material Symbols are 
                     ><img src="readme/svgs/window_code/black.svg"" width="60px" height="60px"
                 ></picture
             ></a>
+            &nbsp;
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/window_code"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/window_code/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/window_code/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/window_code/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
             <br>
             <div><strong>_window_code</strong></div>
             <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
@@ -280,6 +296,14 @@ Below are the icons which have been added so far (original Material Symbols are 
                     ><img src="readme/svgs/fuzzy_search/black.svg"" width="60px" height="60px"
                 ></picture
             ></a>
+            &nbsp;
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/fuzzy_search"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/fuzzy_search/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/fuzzy_search/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/fuzzy_search/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
             <br>
             <div><strong>_fuzzy_search</strong></div>
             <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
@@ -292,6 +316,14 @@ Below are the icons which have been added so far (original Material Symbols are 
                     ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/open_in_terminal/black.svg" width="60px" height="60px"></source
                     ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/open_in_terminal/white.svg" width="60px" height="60px"></source
                     ><img src="readme/svgs/open_in_terminal/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            &nbsp;
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/open_in_terminal"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/open_in_terminal/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/open_in_terminal/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/open_in_terminal/black-fill.svg" width="60px" height="60px"
                 ></picture
             ></a>
             <br>
@@ -308,6 +340,14 @@ Below are the icons which have been added so far (original Material Symbols are 
                     ><img src="readme/svgs/terminal_history/black.svg"" width="60px" height="60px"
                 ></picture
             ></a>
+            &nbsp;
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/terminal_history"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/terminal_history/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/terminal_history/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/terminal_history/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
             <br>
             <div><strong>_terminal_history</strong></div>
             <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
@@ -320,6 +360,14 @@ Below are the icons which have been added so far (original Material Symbols are 
                     ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/terminal_lock/black.svg" width="60px" height="60px"></source
                     ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/terminal_lock/white.svg" width="60px" height="60px"></source
                     ><img src="readme/svgs/terminal_lock/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            &nbsp;
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/terminal_lock"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/terminal_lock/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/terminal_lock/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/terminal_lock/black-fill.svg" width="60px" height="60px"
                 ></picture
             ></a>
             <br>
@@ -450,6 +498,14 @@ Below are the icons which have been added so far (original Material Symbols are 
                     ><img src="readme/svgs/language_history/black.svg"" width="60px" height="60px"
                 ></picture
             ></a>
+            &nbsp;
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/language_history"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/language_history/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/language_history/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/language_history/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
             <br>
             <div><strong>_language_history</strong></div>
             <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
@@ -462,6 +518,14 @@ Below are the icons which have been added so far (original Material Symbols are 
                     ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/language_search/black.svg" width="60px" height="60px"></source
                     ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/language_search/white.svg" width="60px" height="60px"></source
                     ><img src="readme/svgs/language_search/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            &nbsp;
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/language_search"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/language_search/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/language_search/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/language_search/black-fill.svg" width="60px" height="60px"
                 ></picture
             ></a>
             <br>
@@ -478,6 +542,14 @@ Below are the icons which have been added so far (original Material Symbols are 
                     ><img src="readme/svgs/file_dashed/black.svg"" width="60px" height="60px"
                 ></picture
             ></a>
+            &nbsp;
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/file_dashed"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/file_dashed/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/file_dashed/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/file_dashed/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
             <br>
             <div><strong>_file_dashed</strong></div>
             <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
@@ -492,6 +564,14 @@ Below are the icons which have been added so far (original Material Symbols are 
                     ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/folder_dashed/black.svg" width="60px" height="60px"></source
                     ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/folder_dashed/white.svg" width="60px" height="60px"></source
                     ><img src="readme/svgs/folder_dashed/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            &nbsp;
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/folder_dashed"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/folder_dashed/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/folder_dashed/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/folder_dashed/black-fill.svg" width="60px" height="60px"
                 ></picture
             ></a>
             <br>
@@ -688,6 +768,14 @@ Below are the icons which have been added so far (original Material Symbols are 
                     ><img src="readme/svgs/file_symlink/black.svg"" width="60px" height="60px"
                 ></picture
             ></a>
+            &nbsp;
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/file_symlink"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/file_symlink/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/file_symlink/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/file_symlink/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
             <br>
             <div><strong>_file_symlink</strong></div>
             <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
@@ -722,6 +810,14 @@ Below are the icons which have been added so far (original Material Symbols are 
                     ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/folder_symlink/black.svg" width="60px" height="60px"></source
                     ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/folder_symlink/white.svg" width="60px" height="60px"></source
                     ><img src="readme/svgs/folder_symlink/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            &nbsp;
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/folder_symlink"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/folder_symlink/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/folder_symlink/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/folder_symlink/black-fill.svg" width="60px" height="60px"
                 ></picture
             ></a>
             <br>
@@ -1054,6 +1150,14 @@ Below are the icons which have been added so far (original Material Symbols are 
                     ><img src="readme/svgs/size_data_zero/black.svg"" width="60px" height="60px"
                 ></picture
             ></a>
+            &nbsp;
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_zero"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_zero/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_zero/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_zero/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
             <br>
             <div><strong>_size_data_zero</strong></div>
             <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
@@ -1066,6 +1170,14 @@ Below are the icons which have been added so far (original Material Symbols are 
                     ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_byte/black.svg" width="60px" height="60px"></source
                     ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_byte/white.svg" width="60px" height="60px"></source
                     ><img src="readme/svgs/size_data_byte/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            &nbsp;
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_byte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_byte/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_byte/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_byte/black-fill.svg" width="60px" height="60px"
                 ></picture
             ></a>
             <br>
@@ -1084,6 +1196,14 @@ Below are the icons which have been added so far (original Material Symbols are 
                     ><img src="readme/svgs/size_data_kilobyte/black.svg"" width="60px" height="60px"
                 ></picture
             ></a>
+            &nbsp;
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_kilobyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_kilobyte/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_kilobyte/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_kilobyte/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
             <br>
             <div><strong>_size_data_kilobyte</strong></div>
             <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
@@ -1096,6 +1216,14 @@ Below are the icons which have been added so far (original Material Symbols are 
                     ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_megabyte/black.svg" width="60px" height="60px"></source
                     ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_megabyte/white.svg" width="60px" height="60px"></source
                     ><img src="readme/svgs/size_data_megabyte/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            &nbsp;
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_megabyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_megabyte/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_megabyte/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_megabyte/black-fill.svg" width="60px" height="60px"
                 ></picture
             ></a>
             <br>
@@ -1112,6 +1240,14 @@ Below are the icons which have been added so far (original Material Symbols are 
                     ><img src="readme/svgs/size_data_gigabyte/black.svg"" width="60px" height="60px"
                 ></picture
             ></a>
+            &nbsp;
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_gigabyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_gigabyte/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_gigabyte/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_gigabyte/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
             <br>
             <div><strong>_size_data_gigabyte</strong></div>
             <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
@@ -1124,6 +1260,14 @@ Below are the icons which have been added so far (original Material Symbols are 
                     ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_terabyte/black.svg" width="60px" height="60px"></source
                     ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_terabyte/white.svg" width="60px" height="60px"></source
                     ><img src="readme/svgs/size_data_terabyte/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            &nbsp;
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_terabyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_terabyte/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_terabyte/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_terabyte/black-fill.svg" width="60px" height="60px"
                 ></picture
             ></a>
             <br>
@@ -1142,6 +1286,14 @@ Below are the icons which have been added so far (original Material Symbols are 
                     ><img src="readme/svgs/size_data_petabyte/black.svg"" width="60px" height="60px"
                 ></picture
             ></a>
+            &nbsp;
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_petabyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_petabyte/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_petabyte/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_petabyte/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
             <br>
             <div><strong>_size_data_petabyte</strong></div>
             <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
@@ -1154,6 +1306,14 @@ Below are the icons which have been added so far (original Material Symbols are 
                     ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_exabyte/black.svg" width="60px" height="60px"></source
                     ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_exabyte/white.svg" width="60px" height="60px"></source
                     ><img src="readme/svgs/size_data_exabyte/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            &nbsp;
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_exabyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_exabyte/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_exabyte/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_exabyte/black-fill.svg" width="60px" height="60px"
                 ></picture
             ></a>
             <br>
@@ -1170,6 +1330,14 @@ Below are the icons which have been added so far (original Material Symbols are 
                     ><img src="readme/svgs/size_data_byte_iec/black.svg"" width="60px" height="60px"
                 ></picture
             ></a>
+            &nbsp;
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_byte_iec"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_byte_iec/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_byte_iec/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_byte_iec/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
             <br>
             <div><strong>_size_data_byte_iec</strong></div>
             <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
@@ -1182,6 +1350,14 @@ Below are the icons which have been added so far (original Material Symbols are 
                     ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_kibibyte/black.svg" width="60px" height="60px"></source
                     ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_kibibyte/white.svg" width="60px" height="60px"></source
                     ><img src="readme/svgs/size_data_kibibyte/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            &nbsp;
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_kibibyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_kibibyte/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_kibibyte/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_kibibyte/black-fill.svg" width="60px" height="60px"
                 ></picture
             ></a>
             <br>
@@ -1200,6 +1376,14 @@ Below are the icons which have been added so far (original Material Symbols are 
                     ><img src="readme/svgs/size_data_mebibyte/black.svg"" width="60px" height="60px"
                 ></picture
             ></a>
+            &nbsp;
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_mebibyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_mebibyte/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_mebibyte/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_mebibyte/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
             <br>
             <div><strong>_size_data_mebibyte</strong></div>
             <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
@@ -1212,6 +1396,14 @@ Below are the icons which have been added so far (original Material Symbols are 
                     ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_gibibyte/black.svg" width="60px" height="60px"></source
                     ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_gibibyte/white.svg" width="60px" height="60px"></source
                     ><img src="readme/svgs/size_data_gibibyte/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            &nbsp;
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_gibibyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_gibibyte/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_gibibyte/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_gibibyte/black-fill.svg" width="60px" height="60px"
                 ></picture
             ></a>
             <br>
@@ -1228,6 +1420,14 @@ Below are the icons which have been added so far (original Material Symbols are 
                     ><img src="readme/svgs/size_data_tebibyte/black.svg"" width="60px" height="60px"
                 ></picture
             ></a>
+            &nbsp;
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_tebibyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_tebibyte/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_tebibyte/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_tebibyte/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
             <br>
             <div><strong>_size_data_tebibyte</strong></div>
             <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
@@ -1240,6 +1440,14 @@ Below are the icons which have been added so far (original Material Symbols are 
                     ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_pebibyte/black.svg" width="60px" height="60px"></source
                     ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_pebibyte/white.svg" width="60px" height="60px"></source
                     ><img src="readme/svgs/size_data_pebibyte/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            &nbsp;
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_pebibyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_pebibyte/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_pebibyte/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_pebibyte/black-fill.svg" width="60px" height="60px"
                 ></picture
             ></a>
             <br>
@@ -1256,6 +1464,14 @@ Below are the icons which have been added so far (original Material Symbols are 
                     ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_exbibyte/black.svg" width="60px" height="60px"></source
                     ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_exbibyte/white.svg" width="60px" height="60px"></source
                     ><img src="readme/svgs/size_data_exbibyte/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            &nbsp;
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_exbibyte"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/size_data_exbibyte/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/size_data_exbibyte/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/size_data_exbibyte/black-fill.svg" width="60px" height="60px"
                 ></picture
             ></a>
             <br>
@@ -1411,7 +1627,7 @@ HoverHandler { id: hoverHandler }
 
 ## Adding more icons
 
-To add your own icons, either submit a PR with your SVGs so I can run the scripts to add the icons, or clone the repository and run the scripts yourself. For the latter, you must be using Linux, WSL or macOS (scripts have only been tested on Linux). If so, install `fonttools` and `fontforge`, then create a directory in ./svgs with the name of the icon and add four SVGs called `FILL,opsz@0,24.svg`, `FILL,opsz@1,24.svg`, `FILL,opsz@0,48.svg` and `FILL,opsz@1,48.svg` to it. Finally, run `./src/generate.sh` and the SVGs should be added to the fonts in the ./fonts directory. Make sure to follow the [Material Design 3 design principles](https://m3.material.io/styles/icons/designing-icons) and ensure your SVGs only use `<path>`, `<g>` and `<defs>` tags as tags like `<text>` and `<circle>` are not supported in the OpenType SVG table.
+To add your own icons, either submit a PR with your SVGs so I can run the scripts to add the icons, or clone the repository and run the scripts yourself. For the latter, you must be using Linux, WSL or macOS (scripts have only been tested on Linux). If so, install `fonttools` and `fontforge`, then create a directory in ./svgs with the name of the icon and add four SVGs called `FILL,opsz@0,24.svg`, `FILL,opsz@1,24.svg`, `FILL,opsz@0,48.svg` and `FILL,opsz@1,48.svg` to it. Finally, run `./src/generate-fonts.sh` and the SVGs should be added to the fonts in the ./fonts directory. Make sure to follow the [Material Design 3 design principles](https://m3.material.io/styles/icons/designing-icons) and ensure your SVGs only use `<path>`, `<g>` and `<defs>` tags as tags like `<text>` and `<circle>` are not supported in the OpenType SVG table.
 
 ## Notice
 
