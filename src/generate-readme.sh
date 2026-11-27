@@ -18,9 +18,10 @@ $gensvgs && {
     rm -rf readme/svgs
     mkdir -p readme/svgs
     cp -r svgs/* readme/svgs
-    rm -f readme/svgs/*/*48.svg
+
     gencount=0
-    totalcount="$((2 * $(ls svgs | wc -l)))" 
+    totalcount="$((4 * $(ls svgs | wc -l)))"
+
     for svg in readme/svgs/*/*.svg; do
         base="$(basename "${svg%.*}")"
         whitesvg="$(dirname "$svg")/white-$base.svg"
@@ -29,20 +30,20 @@ $gensvgs && {
         rprintf1 'generated %d/%d svgs\n' "$((++gencount))" "$totalcount"
     done
 
-    for dir in readme/svgs/*; do
-        mv "$dir"/FILL,opsz@0,24.svg "$dir"/black.svg
-        mv "$dir"/FILL,opsz@1,24.svg "$dir"/black-fill.svg
-        mv "$dir"/white-FILL,opsz@0,24.svg "$dir"/white.svg
-        mv "$dir"/white-FILL,opsz@1,24.svg "$dir"/white-fill.svg
-    done
-} || printf1 'skipped generating svgs\n'
+    for opsz in 24 48; do for fill in 0 1; do for icon in readme/svgs/*; do
+        mv "$icon"/FILL,opsz@$fill,$opsz.svg "$icon"/black-$fill-$opsz.svg
+        mv "$icon"/white-FILL,opsz@$fill,$opsz.svg "$icon"/white-$fill-$opsz.svg
+    done done done
+}
 
+! $gensvgs && printf1 'skipped generating svgs\n'
 
 declare -A codepoints
 template=$(<"readme/icon-td.html")
 icons=()
 cols=4
 inside=false
+trindent='                '
 
 mapfile -t icons < <(jq -r '.displayOrder[]' data.json)
 eval "$(
@@ -54,11 +55,13 @@ eval "$(
 )"
 
 while IFS= read -r line; do
-    [[ "$line" == '<table id="icons"'* ]] && {
+    [[ "$line" == *'<table id="icons-24"'* ]] && opsz=24
+    [[ "$line" == *'<table id="icons-48"'* ]] && opsz=48
+    [[ "$line" == *'<table id="icons-'* ]] && {
         inside=true
         echo "$line"
         for ((i=0; i<${#icons[@]}; i+=cols)); do
-            printf '    <tr>\n'
+            printf '%s<tr>\n' "$trindent"
             for ((j=0; j<cols; j++)); do
                 icon=${icons[i+j]:-}
                  [[ -n "$icon" ]] && {
@@ -66,16 +69,18 @@ while IFS= read -r line; do
                     codepoint="${codepoint//"0x"/"U+"}"
                     newtemplate="${template//"%ICON"/"$icon"}"
                     newtemplate="${newtemplate//"%CODEPOINT"/"$codepoint"}"
+                    newtemplate="${newtemplate//"%OPSZ"/"$opsz"}"
+                    newtemplate="${newtemplate//"%SIZE"/"$([[ $opsz == "24" ]] && echo 50 || echo 70)"}"
                     printf "%s\n" "$newtemplate"
                     newtemplate="$template"
                 }
             done
-            printf '    </tr>\n'
+            printf '%s</tr>\n' "$trindent"
         done
         continue
     }
 
-    [[ "$line" == "</table>" ]] && {
+    [[ "$line" == *"</table>"* ]] && {
         inside=false
         echo "$line"
         printf1 'added icon table\n' >&2
