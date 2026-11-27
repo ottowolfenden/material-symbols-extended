@@ -5,24 +5,25 @@
             "label": "Unzip, fetch and generate fonts, generate README.md",
             "type": "shell",
             "command": "bash",
-            "args": ["-c", "./run.sh ${input:opts}"],
+            "args": ["-c", "./run.sh ${input:runopts}"],
             "problemMatcher": []
         },
         {
             "label": "Generate README.md",
             "type": "shell",
-            "command": "./src/generate-readme.sh",
+            "command": "bash",
+            "args": ["-c", "./src/generate-readme.sh ${input:readmeopts}"],
             "problemMatcher": []
         }
     ],
     "inputs": [
         {
-            "id": "opts",
+            "id": "runopts",
             "type": "command",
             "command": "extension.commandvariable.pickStringRemember",
             "args": {
                 "description": "",
-                "key": "opts",
+                "key": "runopts",
                 "multiPick": true,
                 "separator": " ",
                 "options": [
@@ -37,8 +38,25 @@
                     {
                         "label": "Do not fetch fonts",
                         "value": "--nofetch"
+                    },
+                    {
+                        "label": "Skip generating SVGs",
+                        "value": "--nosvgs"
                     }
                 ],
+                "default": "--cancel"
+            }
+        },
+        {
+            "id": "readmeopts",
+            "type": "command",
+            "command": "extension.commandvariable.pickStringRemember",
+            "args": {
+                "description": "",
+                "key": "readmeopts",
+                "multiPick": true,
+                "separator": " ",
+                "options": [{ "label": "Skip generating SVGs", "value": "--nosvgs" }],
                 "default": "--cancel"
             }
         }
