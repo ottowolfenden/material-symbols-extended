@@ -23,7 +23,7 @@ for propName in propNames:
         mergeGlyphInto(font, tmpPath, glyphName)
         addUnicodeMappings(font, codepoint, glyphName)
         addLigature(font, glyphName)
-        print(indent(f"{propName} at U+{codepoint:X}: {name}", 1))
+        print(f'"{name}" in "{propName}"')
     addMetadata(font, srcFontPath, propName)
     ff.close()
     font.save(outFontPath)
