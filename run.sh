@@ -28,6 +28,6 @@ $mustupdate && {
     printf "exiting without generating as no updates found\n"
     exit 0
 }
-./src/generate.sh &&
+./src/generate-fonts.sh &&
 ./src/package.sh &&
 ./src/generate-readme.sh
