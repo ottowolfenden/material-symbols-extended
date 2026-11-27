@@ -40,7 +40,7 @@
                         "value": "--nofetch"
                     },
                     {
-                        "label": "Skip generating SVGs",
+                        "label": "Skip generating README SVGs",
                         "value": "--nosvgs"
                     }
                 ],
