@@ -19,12 +19,13 @@ done
     printf "exiting without generating as no zip found\n"
     exit 0
 }
-$nofetch && printf 'skipping fetch\n'
-$mustupdate && {
-    $nofetch ||
-    ! ./src/fetch-fonts.sh "$($mustupdate && echo --mustupdate)" && 
-    ! $unzipped; 
-} && {
+
+success=false
+$nofetch &&
+    printf 'skipping fetch\n' ||
+    ./src/fetch-fonts.sh "$($mustupdate && echo --mustupdate)" && success=true
+
+$mustupdate && { $nofetch || ! $success && ! $unzipped; } && {
     printf "exiting without generating as no updates found\n"
     exit 0
 }
