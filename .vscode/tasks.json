@@ -5,7 +5,7 @@
             "label": "Unzip, fetch and generate fonts, generate README.md",
             "type": "shell",
             "command": "bash",
-            "args": ["-c", "./run.sh ${input:runopts}"],
+            "args": ["-c", "./src/main.sh ${input:runopts}"],
             "problemMatcher": []
         },
         {
