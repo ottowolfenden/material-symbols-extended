@@ -1,6 +1,8 @@
 #!/bin/bash
 
-cd "$(dirname "${BASH_SOURCE[0]}")"/.. || exit
+set -e
+
+cd "$(dirname "${BASH_SOURCE[0]}")"/..
 source "src/utils.sh"
 
 [[ "$1" == "--cancel" ]] && { printf 'cancelled\n'; exit 0; }
@@ -12,34 +14,25 @@ mkdir -p readme/svgs
 cp -r svgs/* readme/svgs
 rm -f readme/svgs/*/*48.svg
 
+gencount=0
+totalcount="$((2 * $(ls svgs | wc -l)))" 
 for svg in readme/svgs/*/*.svg; do
     base="$(basename "${svg%.*}")"
     whitesvg="$(dirname "$svg")/white-$base.svg"
     cp "$svg" "$whitesvg"
     sed -i 's/fill="black"/fill="white"/g' "$whitesvg"
+    rprintf1 'generated %d/%d svgs\n' "$((++gencount))" "$totalcount"
 done
 
-iprintf 1 'generated %d white svgs and %d black svgs for %d icons\n' \
-    "$(find readme/svgs -type f -name "white*.svg" | wc -l)" \
-    "$(find readme/svgs -type f ! -name "white*.svg" | wc -l)" \
-    "$(ls -1 svgs | wc -l)"
-
-delcount=0
-for icon in readme/svgs/*; do
-    mv "$icon"/FILL,opsz@0,24.svg "$icon"/black.svg
-    mv "$icon"/FILL,opsz@1,24.svg "$icon"/black-fill.svg
-    mv "$icon"/white-FILL,opsz@0,24.svg "$icon"/white.svg
-    mv "$icon"/white-FILL,opsz@1,24.svg "$icon"/white-fill.svg
-    cmp -s "$icon"/black*.svg && {
-        for f in "$icon"/*-fill.svg; do rm -f "$f" && ((delcount++)) done
-    }
+for dir in readme/svgs/*; do
+    mv "$dir"/FILL,opsz@0,24.svg "$dir"/black.svg
+    mv "$dir"/FILL,opsz@1,24.svg "$dir"/black-fill.svg
+    mv "$dir"/white-FILL,opsz@0,24.svg "$dir"/white.svg
+    mv "$dir"/white-FILL,opsz@1,24.svg "$dir"/white-fill.svg
 done
-
-iprintf 1 'removed %d svgs with no fill variant\n' "$delcount"
 
 declare -A codepoints
-singletd=$(<"readme/icon-td-single.html")
-doubletd=$(<"readme/icon-td-double.html")
+template=$(<"readme/icon-td.html")
 icons=()
 cols=4
 inside=false
@@ -62,12 +55,12 @@ while IFS= read -r line; do
             for ((j=0; j<cols; j++)); do
                 icon=${icons[i+j]:-}
                  [[ -n "$icon" ]] && {
-                    [[ -f "readme/svgs/$icon/black-fill.svg" ]]  && template="$doubletd" || template="$singletd"
                     codepoint="${codepoints["$icon"]}"
                     codepoint="${codepoint//"0x"/"U+"}"
-                    template="${template//"%ICON"/"$icon"}"
-                    template="${template//"%CODEPOINT"/"$codepoint"}"
-                    printf "%s\n" "$template"
+                    newtemplate="${template//"%ICON"/"$icon"}"
+                    newtemplate="${newtemplate//"%CODEPOINT"/"$codepoint"}"
+                    printf "%s\n" "$newtemplate"
+                    newtemplate="$template"
                 }
             done
             printf '    </tr>\n'
@@ -78,13 +71,13 @@ while IFS= read -r line; do
     [[ "$line" == "</table>" ]] && {
         inside=false
         echo "$line"
-        iprintf 1 'added icon table\n' >&2
+        printf1 'added icon table\n' >&2
         continue
     }
 
     [[ "$line" == "INSERT"* ]] && {
         path="${line//"INSERT "/""}"
-        cat "$path" && iprintf 1 'inserted "%s"\n' "$path" >&2
+        cat "$path" && printf1 'inserted "%s"\n' "$path" >&2
         continue
     }
 
