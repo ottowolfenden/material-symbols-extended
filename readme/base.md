@@ -25,7 +25,6 @@ Below are the icons which have been added so far (original Material Symbols are 
 <summary><h3>Planned Icons</h3></summary>
 
 The following is a list of icons planned to be added, in a rough priority order.
-- **_rename** (text cursor over rectangle)
 - **_keyboard_record** (keyboard icon with record circle for recording a keyboard shortcut)
 - **_vector_box** (_vector in a box)
 - **_magnet** (U-shaped magnet)

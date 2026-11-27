@@ -174,6 +174,30 @@ Below are the icons which have been added so far (original Material Symbols are 
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
         <td align="center">
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/rename"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/rename/black.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/rename/white.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/rename/black.svg"" width="60px" height="60px"
+                ></picture
+            ></a>
+            &nbsp;
+            <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/rename"
+                ><picture
+                    ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/rename/black-fill.svg" width="60px" height="60px"></source
+                    ><source media="(prefers-color-scheme: dark)" srcset="readme/svgs/rename/white-fill.svg" width="60px" height="60px"></source
+                    ><img src="readme/svgs/rename/black-fill.svg" width="60px" height="60px"
+                ></picture
+            ></a>
+            <br>
+            <div><strong>_rename</strong></div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code
+                >U+10FFBD</code
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/window_code"
                 ><picture
                     ><source media="(prefers-color-scheme: light)" srcset="readme/svgs/window_code/black.svg" width="60px" height="60px"></source
@@ -195,8 +219,6 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFE0</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/hard_disk_full"
                 ><picture
@@ -263,6 +285,8 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFE4</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/fuzzy_search"
                 ><picture
@@ -285,8 +309,6 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFD1</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/open_in_terminal"
                 ><picture
@@ -353,6 +375,8 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFC0</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/file_shellscript"
                 ><picture
@@ -375,8 +399,6 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFF6</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/git_branch"
                 ><picture
@@ -443,6 +465,8 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFD7</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/git_branch_staged"
                 ><picture
@@ -465,8 +489,6 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFD6</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/language_history"
                 ><picture
@@ -533,6 +555,8 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFF9</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/folder_dashed"
                 ><picture
@@ -555,8 +579,6 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFF5</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/file_diff"
                 ><picture
@@ -623,6 +645,8 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFBE</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/file_3d"
                 ><picture
@@ -645,8 +669,6 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFFC</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/file_code"
                 ><picture
@@ -713,6 +735,8 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFF8</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/file_settings"
                 ><picture
@@ -735,8 +759,6 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFF7</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/file_symlink"
                 ><picture
@@ -803,6 +825,8 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFD3</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/folder_symlink_alt"
                 ><picture
@@ -825,8 +849,6 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFD2</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/folder_desktop"
                 ><picture
@@ -893,6 +915,8 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFF2</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/folder_git"
                 ><picture
@@ -915,8 +939,6 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFF1</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/folder_home"
                 ><picture
@@ -983,6 +1005,8 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFEE</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/folder_pictures"
                 ><picture
@@ -1005,8 +1029,6 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFED</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/folder_videos"
                 ><picture
@@ -1073,6 +1095,8 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFDE</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/path_win_abs_copy"
                 ><picture
@@ -1095,8 +1119,6 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFDD</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/path_win_rel_copy"
                 ><picture
@@ -1163,6 +1185,8 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFCF</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_kilobyte"
                 ><picture
@@ -1185,8 +1209,6 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFC8</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_megabyte"
                 ><picture
@@ -1253,6 +1275,8 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFC2</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_petabyte"
                 ><picture
@@ -1275,8 +1299,6 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFC4</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_exabyte"
                 ><picture
@@ -1343,6 +1365,8 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFC9</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_mebibyte"
                 ><picture
@@ -1365,8 +1389,6 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFC7</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_gibibyte"
                 ><picture
@@ -1433,6 +1455,8 @@ Below are the icons which have been added so far (original Material Symbols are 
                 >U+10FFC5</code
             >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/size_data_exbibyte"
                 ><picture
@@ -1465,7 +1489,6 @@ Below are the icons which have been added so far (original Material Symbols are 
 <summary><h3>Planned Icons</h3></summary>
 
 The following is a list of icons planned to be added, in a rough priority order.
-- **_rename** (text cursor over rectangle)
 - **_keyboard_record** (keyboard icon with record circle for recording a keyboard shortcut)
 - **_vector_box** (_vector in a box)
 - **_magnet** (U-shaped magnet)
