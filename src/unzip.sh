@@ -21,7 +21,7 @@ mapfile -d '' -t zips < <(
 )
 
 [[ ${#zips[@]} -eq 0 ]] && {
-    iprintf 1 "no zip files found\n"
+    printf1 "no zip files found\n"
     exit 1
 }
 
@@ -29,7 +29,7 @@ mapfile -d '' -t zips < <(
 for zip in "${zips[@]}"; do
     name=$(realpath "$zip" --relative-to "$srcdir")
     unzip -qo "$zip" &&
-        iprintf 1 'unzipped "%s"\n' "$name"
+        printf1 'unzipped "%s"\n' "$name"
     gio trash "$zip" &&
-        iprintf 1 'cleaned "%s"\n' "$name"
+        printf1 'cleaned "%s"\n' "$name"
 done || true

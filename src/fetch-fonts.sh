@@ -31,7 +31,7 @@ for p in "${properties[@]}"; do
         )
         curl -fsSL "$fonturl" -o "$tmpdir/$p.woff2" && {
             woff2_decompress "$tmpdir/$p.woff2" &&
-                iprintf 1 'fetched %s\n' "$p"
+                printf1 'fetched %s\n' "$p"
 
             oldver=$(fontver "$outdir/$p.ttf" || printf "none")
             newver=$(fontver "$tmpdir/$p.ttf")
@@ -40,11 +40,11 @@ for p in "${properties[@]}"; do
 
             { isnew || isupdate; } && {
                 cp "$tmpdir/$p.ttf" "$outdir" && {
-                    isnew && iprintf 1 'saved %s %s\n' "$p" "$newver"
-                    isupdate && iprintf 1 'saved %s (%s -> %s)\n' "$p" "$oldver" "$newver"
+                    isnew && printf1 'saved %s %s\n' "$p" "$newver"
+                    isupdate && printf1 'saved %s (%s -> %s)\n' "$p" "$oldver" "$newver"
                 }
                 touch "$updated"
-            } || iprintf 1 'discarded %s as %s already exists\n' "$p" "$newver"
+            } || printf1 'discarded %s as %s already exists\n' "$p" "$newver"
             rm -f "$tmpdir/$p.woff2" "$tmpdir/$p.ttf"
         }
     ) &
