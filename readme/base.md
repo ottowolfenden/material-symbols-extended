@@ -15,26 +15,25 @@ To download, clone the repository or use the links below for zip archives. Ligat
 Below are the icons which have been added so far (original Material Symbols are also included in the font and can be browsed at [Google Fonts](https://fonts.google.com/icons)). The tables below display the non-fill and fill variants at optical sizes of 24px and 48px (actually displayed at 50px and 70px respectively). Some icons do not have a fill variant but are still present in the fill variant fonts (consistent with original fonts). The icon table headings can be clicked to expand/collapse them, and clicking on an icon opens its folder with SVGs for all variants.
 <details open>
     <summary><h3>24px Icons</h3></summary>
-        <div align="center">
-            <table id="icons-24">
-            </table>
-        <table><tr><td>Browse the 2000+ original icons included in the fonts at <a href="https://fonts.google.com/icons">Google Fonts</a></td></tr></table>
+    <div align="center">
+        <table id="icons-24">
+        </table>
+    <table><tr><td>Browse the 2000+ original icons included in the fonts at <a href="https://fonts.google.com/icons">Google Fonts</a></td></tr></table>
     </div>
 </details>
 
 <details>
     <summary><h3>48px Icons</h3></summary>
-        <div align="center">
-            <table id="icons-48">
-            </table>
-        <table><tr><td>Browse the 2000+ original icons included in the fonts at <a href="https://fonts.google.com/icons">Google Fonts</a></td></tr></table>
+    <div align="center">
+        <table id="icons-48">
+        </table>
+    <table><tr><td>Browse the 2000+ original icons included in the fonts at <a href="https://fonts.google.com/icons">Google Fonts</a></td></tr></table>
     </div>
 </details>
 
 ### Planned Icons
 
 The following is a list of icons planned to be added, in a rough priority order.
-- **_keyboard_record** (keyboard icon with record circle for recording a keyboard shortcut)
 - **_command_palette** (magnifying glass with small bolt symbol)
 - **_terminal_search** (terminal with small magnifying glass)
 - **_vector_box** (_vector in a box)
