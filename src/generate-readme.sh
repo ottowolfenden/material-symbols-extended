@@ -80,10 +80,10 @@ while IFS= read -r line; do
         continue
     }
 
-    [[ "$line" == *"</table>"* ]] && {
+    [[ "$line" =~ ^[[:space:]]*\<\/table\>$ ]] && {
         inside=false
         echo "$line"
-        printf1 'added icon table\n' >&2
+        printf1 'added icon table for opsz %dpx\n' "$opsz" >&2
         continue
     }
 
