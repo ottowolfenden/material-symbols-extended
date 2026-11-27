@@ -6,11 +6,13 @@ mustunzip=false
 mustupdate=false
 unzipped=false
 nofetch=false
+nosvgs=false
 
 for arg in "$@"; do
     [[ "$arg" == "--mustunzip" ]] && mustunzip=true
     [[ "$arg" == "--mustupdate" ]] && mustupdate=true
     [[ "$arg" == "--nofetch" ]] && nofetch=true
+    [[ "$arg" == "--nosvgs" ]] && nosvgs=true
     [[ "$arg" == "--cancel" ]] && { printf 'cancelled\n'; exit 0; }
 done
 
@@ -31,4 +33,4 @@ $mustupdate && { $nofetch || ! $success && ! $unzipped; } && {
 }
 ./src/generate-fonts.sh &&
 ./src/package.sh &&
-./src/generate-readme.sh
+./src/generate-readme.sh "$($nosvgs && echo --nosvgs)"

@@ -5,31 +5,38 @@ set -e
 cd "$(dirname "${BASH_SOURCE[0]}")"/..
 source "src/utils.sh"
 
-[[ "$1" == "--cancel" ]] && { printf 'cancelled\n'; exit 0; }
+gensvgs=true
+
+for arg in "$@"; do
+    [[ "$arg" == "--nosvgs" ]] && gensvgs=false
+    [[ "$arg" == "--cancel" ]] && { printf 'cancelled\n'; exit 0; }
+done
 
 printf 'generating readme\n'
 
-rm -rf readme/svgs
-mkdir -p readme/svgs
-cp -r svgs/* readme/svgs
-rm -f readme/svgs/*/*48.svg
+$gensvgs && { 
+    rm -rf readme/svgs
+    mkdir -p readme/svgs
+    cp -r svgs/* readme/svgs
+    rm -f readme/svgs/*/*48.svg
+    gencount=0
+    totalcount="$((2 * $(ls svgs | wc -l)))" 
+    for svg in readme/svgs/*/*.svg; do
+        base="$(basename "${svg%.*}")"
+        whitesvg="$(dirname "$svg")/white-$base.svg"
+        cp "$svg" "$whitesvg"
+        sed -i 's/fill="black"/fill="white"/g' "$whitesvg"
+        rprintf1 'generated %d/%d svgs\n' "$((++gencount))" "$totalcount"
+    done
 
-gencount=0
-totalcount="$((2 * $(ls svgs | wc -l)))" 
-for svg in readme/svgs/*/*.svg; do
-    base="$(basename "${svg%.*}")"
-    whitesvg="$(dirname "$svg")/white-$base.svg"
-    cp "$svg" "$whitesvg"
-    sed -i 's/fill="black"/fill="white"/g' "$whitesvg"
-    rprintf1 'generated %d/%d svgs\n' "$((++gencount))" "$totalcount"
-done
+    for dir in readme/svgs/*; do
+        mv "$dir"/FILL,opsz@0,24.svg "$dir"/black.svg
+        mv "$dir"/FILL,opsz@1,24.svg "$dir"/black-fill.svg
+        mv "$dir"/white-FILL,opsz@0,24.svg "$dir"/white.svg
+        mv "$dir"/white-FILL,opsz@1,24.svg "$dir"/white-fill.svg
+    done
+} || printf1 'skipped generating svgs\n'
 
-for dir in readme/svgs/*; do
-    mv "$dir"/FILL,opsz@0,24.svg "$dir"/black.svg
-    mv "$dir"/FILL,opsz@1,24.svg "$dir"/black-fill.svg
-    mv "$dir"/white-FILL,opsz@0,24.svg "$dir"/white.svg
-    mv "$dir"/white-FILL,opsz@1,24.svg "$dir"/white-fill.svg
-done
 
 declare -A codepoints
 template=$(<"readme/icon-td.html")
