@@ -15,8 +15,8 @@ To download, clone the repository or use the links below for zip archives. Ligat
 Below are the icons which have been added so far (original Material Symbols are also included in the font and can be browsed at [Google Fonts](https://fonts.google.com/icons)). The tables below display the non-fill and fill variants at optical sizes of 24px and 48px (actually displayed at 50px and 70px respectively). Some icons do not have a fill variant but are still present in the fill variant fonts (consistent with original fonts). The icon table headings can be clicked to expand/collapse them, and clicking on an icon opens its folder with SVGs for all variants.
 <details open>
     <summary><h3>24px Icons</h3></summary>
-        <div align="center">
-            <table id="icons-24">
+    <div align="center">
+        <table id="icons-24">
                 <tr>
                     <td align="center">
                         <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/json"
@@ -1503,15 +1503,15 @@ Below are the icons which have been added so far (original Material Symbols are 
                         >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
                     </td>
                 </tr>
-            </table>
-        <table><tr><td>Browse the 2000+ original icons included in the fonts at <a href="https://fonts.google.com/icons">Google Fonts</a></td></tr></table>
+        </table>
+    <table><tr><td>Browse the 2000+ original icons included in the fonts at <a href="https://fonts.google.com/icons">Google Fonts</a></td></tr></table>
     </div>
 </details>
 
 <details>
     <summary><h3>48px Icons</h3></summary>
-        <div align="center">
-            <table id="icons-48">
+    <div align="center">
+        <table id="icons-48">
                 <tr>
                     <td align="center">
                         <a href="https://github.com/ottowolfenden/material-symbols-extended/tree/main/svgs/json"
@@ -2998,8 +2998,8 @@ Below are the icons which have been added so far (original Material Symbols are 
                         >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
                     </td>
                 </tr>
-            </table>
-        <table><tr><td>Browse the 2000+ original icons included in the fonts at <a href="https://fonts.google.com/icons">Google Fonts</a></td></tr></table>
+        </table>
+    <table><tr><td>Browse the 2000+ original icons included in the fonts at <a href="https://fonts.google.com/icons">Google Fonts</a></td></tr></table>
     </div>
 </details>
 
@@ -3020,15 +3020,15 @@ The following is a list of icons planned to be added, in a rough priority order.
 
 ## Using on the web
 
-To avoid loading huge font files when a page loads, you should [download the fonts](https://github.com/ottowolfenden/material-symbols-extended/raw/main/ttf-material-symbols-extended.zip) then create a font containing only the icons you need and compress to woff2. To do this, install [FontTools](https://github.com/fonttools/fonttools) with `pip install fonttools`, and run with the desired font variant and glyphs (the example command below creates a woff2 font in the 24px non-fill style with only the **search**, **_json** and **_tex** glyphs). You can see the available glyphs in the table above and in the icon name field when clicking on an icon in [Google Fonts](https://fonts.google.com/icons).
+To avoid loading huge font files when a page loads, you should [download the fonts](https://github.com/ottowolfenden/material-symbols-extended/raw/main/ttf-material-symbols-extended.zip) then create a font containing only the icons you need and compress to woff2. To do this, install [FontTools](https://github.com/fonttools/fonttools) with `pip install fonttools`, and run the command below but with the desired font variant and glyphs (the example command below creates a woff2 font in the 24px non-fill style with only the **search**, **_json** and **_tex** glyphs). It is necessary to include the a-z, 0-9, period and underscore glyphs for ligatures to work. The codepoints do not change when creating a subset so ligatures or codepoints can be used. You can see the available glyph names in the [tables above](#icons-24) and in the icon name field when clicking on an icon in [Google Fonts](https://fonts.google.com/icons). It is worth using a subset of the font as for an app that uses 100 icons for example, generating a subset font with only those icons reduces the file size of the 24px fill font by 99% (1.4 MiB to 15 KiB)!
 
 ```bash
 fonttools subset material-symbols-extended-24px.ttf \
+    --glyphs=search,_json,_tex \
     --flavor=woff2 \
     --text="abcdefghijklmnopqrstuvwxyz0123456789._ " \
     --no-layout-closure \
-    --verbose \
-    --glyphs=search,_json,_tex
+    --verbose
 ```
 
 You can use the CSS below for using the icons on the web (the paths below may need to be changed).

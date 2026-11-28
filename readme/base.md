@@ -48,15 +48,15 @@ The following is a list of icons planned to be added, in a rough priority order.
 
 ## Using on the web
 
-To avoid loading huge font files when a page loads, you should [download the fonts](https://github.com/ottowolfenden/material-symbols-extended/raw/main/ttf-material-symbols-extended.zip) then create a font containing only the icons you need and compress to woff2. To do this, install [FontTools](https://github.com/fonttools/fonttools) with `pip install fonttools`, and run with the desired font variant and glyphs (the example command below creates a woff2 font in the 24px non-fill style with only the **search**, **_json** and **_tex** glyphs). You can see the available glyphs in the table above and in the icon name field when clicking on an icon in [Google Fonts](https://fonts.google.com/icons).
+To avoid loading huge font files when a page loads, you should [download the fonts](https://github.com/ottowolfenden/material-symbols-extended/raw/main/ttf-material-symbols-extended.zip) then create a font containing only the icons you need and compress to woff2. To do this, install [FontTools](https://github.com/fonttools/fonttools) with `pip install fonttools`, and run the command below but with the desired font variant and glyphs (the example command below creates a woff2 font in the 24px non-fill style with only the **search**, **_json** and **_tex** glyphs). It is necessary to include the a-z, 0-9, period and underscore glyphs for ligatures to work. The codepoints do not change when creating a subset so ligatures or codepoints can be used. You can see the available glyph names in the [tables above](#icons-24) and in the icon name field when clicking on an icon in [Google Fonts](https://fonts.google.com/icons). It is worth using a subset of the font as for an app that uses 100 icons for example, generating a subset font with only those icons reduces the file size of the 24px fill font by 99% (1.4 MiB to 15 KiB)!
 
 ```bash
 fonttools subset material-symbols-extended-24px.ttf \
+    --glyphs=search,_json,_tex \
     --flavor=woff2 \
     --text="abcdefghijklmnopqrstuvwxyz0123456789._ " \
     --no-layout-closure \
-    --verbose \
-    --glyphs=search,_json,_tex
+    --verbose
 ```
 
 You can use the CSS below for using the icons on the web (the paths below may need to be changed).
