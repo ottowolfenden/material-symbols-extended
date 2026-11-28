@@ -34,8 +34,6 @@ Below are the icons which have been added so far (original Material Symbols are 
 ### Planned Icons
 
 The following is a list of icons planned to be added, in a rough priority order.
-- **_command_palette** (magnifying glass with small bolt symbol)
-- **_terminal_search** (terminal with small magnifying glass)
 - **_vector_box** (_vector in a box)
 - **_magnet** (U-shaped magnet)
 - **_binary** (zeros and ones in a grid, or just text like "bin" or "0b" in a box)
@@ -45,6 +43,7 @@ The following is a list of icons planned to be added, in a rough priority order.
 - **_folder_git_clone**
 - **_file_location** (draft with location pin)
 - **_folder_location** (folder with location pin)
+- **_command_palette** (magnifying glass with small bolt symbol)
 
 ## Using on the web
 
